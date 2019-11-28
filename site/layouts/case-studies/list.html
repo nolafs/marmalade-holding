@@ -1,0 +1,37 @@
+{{define "header"}}
+   {{ partial "header" (dict "Title" "Case Studies" "Content"  $.Site.Data.casestudies.heading) }}
+{{end}}
+{{ define "main" }}
+<section>
+<div id="block-studies" class="grid-container block">
+    <div id="filters" class="grid-x grid-padding-x grid-margin-y align-center-middle m-b-30">
+        <div class="cell shrink">
+            <a id="filter-all" data-cat="all" href="#all" class="isActive">View all items</a>
+        </div>
+        {{range $cat := $.Site.Data.categories}}
+        <div class="cell shrink">
+            <a id="filter-{{lower $cat.value}}"  data-cat="{{lower $cat.value}}" href="#{{lower $cat.value}}">{{$cat.name}}</a>
+        </div>
+        {{end}}
+    </div>
+    <div class="grid-container">
+        <div id="list-grid" class="list grid-x grid-padding-x grid-margin-y small-up-1 medium-up-2 large-up-3" data-filter="all">
+            {{ $paginator := .Paginate (where .Pages.ByDate.Reverse "Type" "case-studies") }}
+            {{ range $index, $content := $paginator.Pages }}
+            {{ $filter := .Params.categories}}
+            {{$cat := replace .Params.categories " " "-"}}
+            <div class="item cell item-{{$index}} {{if eq $index  0 }}expand{{end}}" data-groups='["{{lower $cat}}"]' data-date-created="{{ $content.Date.Format "2006-01-02" }}" onclick="window.location='{{ .RelPermalink }}';">
+                {{with $content}}
+                {{ .Render "summary" }}
+                {{end}}
+            </div>
+            {{ end }}
+            <div class="cell my-sizer-element"></div>
+        </div>
+    </div>
+</div>
+<div class="grid-x small-up-2 medium-up-3">
+</div>
+</section>
+{{ end }}
+

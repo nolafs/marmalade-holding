@@ -1,0 +1,101 @@
+#values {
+
+  position: relative;
+  z-index: 2;
+  margin-bottom: 80px;
+  .grid-x{
+    @include breakpoint(large){
+      @include flex-align(left, middle);
+    }
+  }
+
+  .cell {
+    @include breakpoint(medium only){
+      width: 100%;
+      margin-left: 0;
+    }
+  }
+
+  .image-wrapper {
+      position: relative;
+
+      &:before {
+        @include pseudo();
+        background: url("/images/shield.svg")  no-repeat center center;
+        background-size: cover;
+        width: 241px;
+        height: 297px;
+        z-index: 10;
+        left: - rem-calc(241/2);
+        top: -80px;
+
+        @include breakpoint(small only) {
+           width: rem-calc(241/2);
+           height: rem-calc(297/2);
+           left: 25%;
+           top: 50%;
+         }
+
+        @include breakpoint(medium only) {
+          width: rem-calc(241/2);
+          height: rem-calc(297/2);
+          left: auto;
+          right: 30%;
+          top: 45%;
+        }
+      }
+
+      @include breakpoint(small only) {
+        height: 150px;
+      }
+
+      @include breakpoint(medium only) {
+        top: -30px;
+        height: 150px;
+      }
+
+      img {
+        position: absolute;
+        box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.4);
+
+        @include breakpoint(small only) {
+            right: 0;
+            width: 60%;
+        }
+
+        @include breakpoint(medium only) {
+          right: 0;
+          top:-35px;
+          width: 38%;
+        }
+
+        @include breakpoint(large) {
+          margin-top: -50%;
+        }
+
+
+      }
+    }
+
+  @include breakpoint(small only) {
+    margin-bottom:70px;
+  }
+
+  @include breakpoint(medium only) {
+    margin-bottom:70px;
+  }
+}
+
+#mission {
+  @include breakpoint(small only) {
+    .image-wrapper {
+      width: 50%;
+    }
+  }
+}
+
+#founder {
+  img{
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.4);
+  }
+}

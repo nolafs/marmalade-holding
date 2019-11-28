@@ -1,0 +1,50 @@
+.slick-dots {
+  margin-top: rem-calc(50);
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: center;
+
+  li{
+    width: 10%;
+    height: 10px;
+    font-size: 5px;
+    background-color: $light-gray;
+    color: $light-gray;
+    margin-right: 1px;
+    margin-left: 1px;
+    cursor: pointer;
+
+    button {
+      color: $light-gray;
+    }
+
+    &:hover {
+      color: $primary-color;
+      background-color: $primary-color;
+    }
+
+    &.slick-active {
+      color: $primary-color;
+      background-color: $primary-color;
+    }
+  }
+
+}
+
+
+.slick-slide {
+  perspective: 1200px;
+  .grid-x {
+    transform: translateZ(100px);
+    transition: 250ms all ease-in-out;
+  }
+
+  &.slick-active {
+    .grid-x {
+      transform: translateZ(0);
+      transition: 250ms all ease-in-out;
+    }
+  }
+
+}

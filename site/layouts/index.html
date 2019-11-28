@@ -1,0 +1,37 @@
+{{ define "header" }}
+    {{ partial "header-hero"  (dict "media" .Params.header "title" .Title "body" .Content)}}
+    {{ partial "block-twitter"}}
+{{end}}
+{{ define "main" }}
+    <div id="home-services" class="grid-container block">
+        <div class="grid-x grid-padding-x grid-margin-y">
+            <div class="cell small-12 large-6 small-text-left large-text-right section-heading">
+                <div class="home-service-heading">
+                    <h2><div class="h-anim">{{.Params.services.heading}}</div></h2>
+                </div>
+                <div class="home-service-content">
+                    <p>{{.Params.services.text}}</p>
+                    <a href="/services" class="large button">All our Services</a>
+                </div>
+            </div>
+            <div class="cell small-12 large-5 large-offset-1">
+                <h3 class="h-anim-2">{{.Params.services.subheader}}</h3>
+                <ul class="block-icon-list no-bullet">
+                    {{ range .Params.services.services_list}}
+                    <li>
+                        <div class="item">
+                            <img src="{{.icon}}" alt="{{.title}}">
+                            <h4>{{.title}}</h4>
+                            <p>{{.text}}</p>
+                        </div>
+                    </li>
+                    {{ end }}
+                </ul>
+            </div>
+        </div>
+    </div>
+    {{ partial "block-case-studies" .}}
+    {{ partial "block-clients" .}}
+    {{ partial "block-testimonial" .}}
+    {{ partial "block-awards" .}}
+{{ end }}

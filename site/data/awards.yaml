@@ -1,0 +1,15 @@
+heading: Awards
+body: >-
+  In 2019, Renaissance was named as MCV’s Boutique Agency of the Year, the first
+  time this category has been included in the annual awards.
+awards:
+  - image: /images/uploads/awards-mcv16.jpg
+    title: MCV Awards Finalist 2016
+  - image: /images/uploads/awards-mcv17.jpg
+    title: MCV Awards Finalist 2017
+  - image: /images/uploads/awards-mcv18.jpg
+    title: MCV Awards Finalist 2018
+  - image: /images/uploads/awards-mcv19.jpg
+    title: MCV Awards Winner 2019
+  - image: /images/uploads/awards-worldrecord.jpg
+    title: Guinness World Record Holder

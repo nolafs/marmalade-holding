@@ -1,0 +1,118 @@
+{{ "<!-- Footer -->" | safeHTML }}
+<footer>
+    <div id="footer" class="grid-container full">
+        <div class="grid-container">
+            <div class="grid-x grid-padding-x grid-margin-y small-up-1 medium-up-2 large-up-4">
+                <div class="cell footer-logo">
+                    <a href="{{ .Site.BaseURL }}" aria-label="{{ .Site.Title }}">
+                        <img src="/images/logo-icon.png" alt="{{ .Site.Title }}">
+                    </a>
+                </div>
+                <div class="cell footer-menu">
+                    <ul class="menu vertical"  data-smooth-scroll>
+
+                        {{ if not (.Site.Params.custom_navbar) }}
+                        {{ if not (.Site.Params.cms_navbar) }}
+                        <li class="{{ if .IsHome }}active{{ end }}"><a href="{{ .Site.BaseURL | absLangURL }}">
+                            {{ i18n "home" }} </a>
+                            {{ if .Site.Menus.home}}
+                            <ul class="menu submenu" data-smooth-scroll>
+                                {{ range .Site.Menus.home }}
+                                <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                                {{end}}
+                            </ul>
+                            {{ end}}
+                        </li>
+                        {{end}}
+                        {{end}}
+
+                        {{ if .Site.Params.cms_navbar }}
+
+                        {{ range $.Site.Data.navigation.items}}
+                        <li><a href="{{ .link }}">
+                            {{ .name | markdownify}}
+                        </a></li>
+                        {{ end }}
+
+                        {{end}}
+
+
+                        {{ if .Site.Params.custom_navbar }}
+                            {{ range .Site.Menus.navbar }}
+                                <li >
+                                    <a href="{{.URL}}">
+                                        {{ .Name }}
+                                    </a>
+                                </li>
+                            {{ end }}
+                        {{end}}
+
+                    </ul>
+                </div>
+                <div class="cell contacts">
+                    <div class="grid-x">
+                        <div class="cell small-6 medium-12">
+                            <h6>
+                                Telephone
+                            </h6>
+                            <ul class="no-bullet">
+                                {{ range $tel := $.Site.Data.contact.telephone}}
+                                <li><a href="tel:{{$tel}}">{{$tel}}</a></li>
+                                {{ end }}
+                            </ul>
+                        </div>
+                        <div class="cell small-6 medium-12">
+                            <h6>
+                                Email
+                            </h6>
+                            <ul class="no-bullet">
+                                {{ range $mail := $.Site.Data.contact.email}}
+                                <li><a href="mailto:{{$mail}}">{{$mail}}</a></li>
+                                {{ end }}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="cell footer-social-media">
+                    <h6>
+                        Address
+                    </h6>
+                    <p>
+                        {{$.Site.Data.contact.address | markdownify}}
+                    </p>
+                    <h6>
+                        Social Media
+                    </h6>
+                    <ul class="no-bullet">
+                        {{ $title := .Site.Title}}
+                        {{ range $media := $.Site.Data.socialmedia.links}}
+                            <li class=""><div class="social-block {{$media.type | urlize}}"><a href="{{$media.url}}" aria-label="{{$media.type}} {{ $title }}"><i class="icon fab fa-{{$media.id | urlize}}"></i></a></div></li>
+                        {{ end }}
+                    </ul>
+                </div>
+            </div>
+            <div class="grid-x registation">
+                <div class="cell small-12" class="small-12">
+                    {{$.Site.Data.contact.registration | markdownify}}
+                </div>
+            </div>
+            <div class="grid-x secondary">
+                <div class="cell small-12 medium-6 text-left medium-text-left">
+                    <ul class="menu">
+                        {{ range .Site.Menus.secondary }}
+                        <li >
+                            <a href="{{.URL}}">
+                                {{ .Name }}
+                            </a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </div>
+                <div class="cell small-12 medium-6 text-left medium-text-right">
+                    Website by <a href="https://www.biffnewmedia.com">Biff New Media</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+{{ "<!-- / Footer -->" | safeHTML }}

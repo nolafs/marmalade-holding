@@ -1,0 +1,44 @@
+#footer {
+  border-top: 1px solid $light-gray;
+  padding-top: rem-calc(95);
+  margin-bottom: rem-calc(30);
+
+  @include breakpoint(small only){
+    padding-top: rem-calc(50);
+  }
+}
+
+
+.contacts {
+  a {
+    color: $body-font-color
+  }
+
+  ul{
+    margin-bottom: rem-calc(50);
+
+    @include breakpoint(small only){
+      margin-bottom: 0;
+    }
+  }
+}
+
+.footer-logo {
+  img{
+    max-width: rem-calc(80);
+  }
+}
+
+.registation {
+  font-size: rem-calc(14);
+}
+
+.secondary {
+  .menu{
+    li:first-child {
+      a{
+        padding-left: 0;
+      }
+    }
+  }
+}

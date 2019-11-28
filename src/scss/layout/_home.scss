@@ -1,0 +1,37 @@
+#home-services {
+  .section-heading {
+    h2 {
+      @include breakpoint(large) {
+        border-left: none;
+        padding-left: 0;
+        border-right: rem-calc(5) solid $primary-color;
+        padding-right: rem-calc(30);
+      }
+
+      @include breakpoint(small) {
+        border-left: rem-calc(5) solid $primary-color;
+        padding-left: rem-calc(30);
+      }
+    }
+  }
+}
+
+.client-list {
+  border-top: 1px $light-gray solid;
+}
+
+#case-studies {
+  .grid-x {
+    .i-2 {
+      @include breakpoint(medium only){
+        display: none;
+      }
+    }
+  }
+}
+
+.home-service-heading {
+  overflow: hidden;
+}
+
+

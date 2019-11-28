@@ -1,0 +1,296 @@
+backend:
+  name: git-gateway
+  accept_roles: #optional - accepts all users if left out
+    - admin
+    - editor
+media_folder: "site/static/images/uploads" # Media files will be stored in the repo under static/images/uploads
+public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
+# publish_mode: editorial_workflow
+site_url: https://epic-poitras-ef2b6a.netlify.com
+
+collections:
+  - name: "case-studies" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Case Studies" # Used in the UI, ie.: "New Post"
+    label_singular: "Case Study"
+    editor:
+      preview: true
+    folder: "site/content/case-studies" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - label: "Categories"
+        name: "categories"
+        widget: "relation"
+        required: false
+        collection: "categories"
+        searchFields: ["name"]
+        valueField: "value"
+        displayFields: ["name"]
+      - {label: "Image", name: "image", widget: "image", required: true}
+      - label: "Testimonial"
+        name: "testimonial"
+        widget: "relation"
+        required: false
+        collection: "testimonials"
+        searchFields: ["name", "company"]
+        valueField: "name"
+        displayFields: ["name", "company"]
+      - {label: "Client", name: "client", widget: "string", required: true}
+      - {label: "Intro", name: "description", widget: "text"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "categories"
+    label: "Categories"
+    folder: "site/data/categories"
+    extension: "yaml"
+    identifier_field: name
+    create: true
+    editor:
+      preview: false
+    fields:
+        - {label: "Name", name: "name", widget: string}
+        - {label: "Value", name: "value", widget: string}
+  - name: "testimonials"
+    label: "Testimonials"
+    folder: "site/content/testimonials"
+    create: true
+    editor:
+      preview: false
+    identifier_field: name
+    fields:
+      - {label: "Profile", name: "profile", widget: image}
+      - {label: "Text", name: "text", widget: "text"}
+      - {label: "Name", name: "name", widget: string}
+      - {label: "Position", name: "position", widget: string}
+      - {label: "Company", name: "company", widget: string}
+  - name: "pages"
+    label: "Pages"
+    editor:
+      preview: false
+    files:
+      - file: "site/content/_index.md"
+        label: "Home Page"
+        name: "home"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: "Hero Header", name: header, widget: object, fields: [
+              {label: "Image", name: "image", widget: "image"},
+              {label: "Video", name: "video", widget: string},
+              {label: "Video Banner Active", name: "video_active", widget: "boolean"}
+            ]}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Services Section", name: services, widget: object, fields: [
+              {label: "Heading", name: "heading", widget: string},
+              {label: "Text", name: "text", widget: text},
+              {label: "Subheader", name: "subheader", widget: string},
+              {label: "Services List", name: "services_list", widget: "list", fields: [
+              {label: "Title" , name: "title" , widget: string},
+              {label: "text" , name: "text" , widget: text},
+              {label: "Icon" , name: "icon" , widget: image},
+              ]}
+          ]}
+          - {label: "Clients Section", name: clients, widget: object, fields: [
+             {label: "Heading", name: "heading", widget: string},
+             {label: "Text", name: "text", widget: "text"},
+             {label: "Slider num of items", name: "slider_num", widget: string , default: 6},
+             {label: "Clients Featured", name: "clients_featured", widget: "list", fields: [
+             {label: "Name" , name: "company" , widget: "text"},
+             {label: "Link" , name: "company_url" , widget: string},
+             {label: "Logo" , name: "company_logo" , widget: image},
+             ]},
+             {label: "Clients", name: "clients", widget: "list", fields: [
+             {label: "Name" , name: "company" , widget: "text"},
+             {label: "Link" , name: "company_url" , widget: string},
+             {label: "Logo" , name: "company_logo" , widget: image},
+             ]}
+          ]}
+          - label: "Testimonial"
+            name: "testimonial"
+            widget: "relation"
+            collection: "testimonials"
+            searchFields: ["name", "company"]
+            valueField: "name"
+            displayFields: ["name", "company"]
+          - {label: "Contact Section", name: contact, widget: object, fields: [
+            {label: "Heading", name: "heading", widget: string},
+            {label: "Text", name: "text", widget: "text"},
+          ]}
+      - file: "site/content/about/_index.md"
+        label: "About Page"
+        name: "about"
+        editor:
+          preview: false
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Mission", name: mission, widget: object, fields: [
+              {label: "Image", name: "image", widget: "image"},
+              {label: "Heading", name: "heading", widget: string},
+              {label: "Text", name: "text", widget: "text"}
+          ]}
+          - {label: "Values", name: values, widget: object, fields: [
+              {label: "Image", name: "image", widget: "image"},
+              {label: "Heading", name: "heading", widget: string, default: "Our Values"},
+              {label: "Text", name: "text", widget: "text"}
+          ]}
+          - {label: "Founder", name: founder, widget: object, fields: [
+              {label: "Image", name: "image", widget: "image"},
+              {label: "Heading", name: "heading", widget: string, default: "About the Founder"},
+              {label: "Founder Name", name: "subheading", widget: string, default: "Stefano Petrullo"},
+              {label: "Text", name: "text", widget: "markdown"}
+          ]}
+          - {label: "Team", name: team, widget: object, fields: [
+              {label: "Heading", name: "heading", widget: string, default: "The Team"},
+              {label: "Text", name: "text", widget: "text"},
+              {label: "Team Members", name: "team_list", widget: "list", fields: [
+              {label: "Name" , name: "name" , widget: string},
+              {label: "Position" , name: "position" , widget: text},
+              {label: "Text" , name: "text" , widget: text},
+              {label: "Image" , name: "image" , widget: image},
+              ]}
+          ]}
+          - {label: "Why", name: why, widget: object, fields: [
+            {label: "Heading", name: "heading", widget: string},
+            {label: "Text", name: "text", widget: "markdown"},
+            {label: "Why List", name: "why_list", widget: "list", fields: [
+            {label: "Title" , name: "title" , widget: string},
+            {label: "Text" , name: "text" , widget: text},
+            {label: "Icon" , name: "icon" , widget: image},
+            ]}
+          ]}
+      - file: "site/content/services/_index.md"
+        label: "Services Page"
+        name: "services"
+        editor:
+          preview: false
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Services", name: services, widget: object, fields: [
+              {label: "Heading", name: "heading", widget: string},
+              {label: "Services List", name: "services_list", widget: "list", fields: [
+              {label: "Title" , name: "title" , widget: string},
+              {label: "text" , name: "text" , widget: text},
+              {label: "Icon" , name: "icon" , widget: image},
+              ]}
+          ]}
+          - {label: "Other Services", name: other_services, widget: object, fields: [
+              {label: "Heading", name: "heading", widget: string},
+              {label: "Text", name: "text", widget: text},
+              {label: "Services List", name: "services_other_list", widget: "list", fields: [
+              {label: "Title" , name: "title" , widget: string},
+              {label: "text" , name: "text" , widget: text},
+              ]}
+          ]}
+      - file: "site/content/contact/_index.md"
+        label: "Contact Page"
+        name: "contact"
+        editor:
+          preview: false
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Body, name: body, widget: markdown}
+          - {label: "Contact Information", name: contacts, widget: object, fields: [
+              {label: "Heading", name: "heading", widget: string, default: "Contact Information"},
+              {label: "Telephone Numbers", name: "tel_list", widget: "list", fields: [
+                {label: "tel" , name: "tel" , widget: string},
+              ]},
+              {label: "Emails", name: "email_list", widget: "list", fields: [
+                {label: "Email" , name: "email" , widget: string},
+              ]}
+          ]}
+      - file: "site/content/privacy/_index.md"
+        label: "Privacy Page"
+        name: "privacy"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: "Body", name: "body", widget: "markdown"}
+  - name: "config"
+    label: "Config"
+    editor:
+      preview: false
+    files:
+      - label: "Navigation"
+        name: "navigation"
+        file: "site/data/navigation.yaml"
+        fields:
+          - label: "Navigation Items"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: Link, name: link, widget: string}
+      - label: "GDPR"
+        name: "gdpr"
+        file: "site/data/gdpr.yaml"
+        fields:
+          - label: "Use Osana Cookie Content"
+            name: "osana"
+            widget: object
+            fields:
+              - {label: "Osana on/off", name: "active", widget: "boolean", default: false}
+              - {label: Script , name: script, widget: string}
+          - label: "Simple Cookie Consent"
+            name: "consent"
+            widget: object
+            fields:
+              - {label: Message, name: message, widget: string, default: "This website uses cookies to ensure you get the best experience on our website."}
+              - {label: Dismiss, name: dismiss, widget: string, default: "Got it!"}
+              - {label: Link, name: link, widget: string, default: "Privacy Policy"}
+              - {label: Url, name: url, widget: string}
+      - label: "Awards"
+        name: "awards"
+        file: "site/data/awards.yaml"
+        fields:
+          - label: "Heading"
+            name: "heading"
+            widget: "string"
+          - label: "body"
+            name: "body"
+            widget: "markdown"
+          - label: "Awards"
+            name: "awards"
+            widget: "list"
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Image, name: image, widget: image}
+      - label: "Contact"
+        name: "contact"
+        file: "site/data/contact.yaml"
+        fields:
+          - label: "Telephone"
+            name: "telephone"
+            widget: "list"
+          - label: "Emails"
+            name: "email"
+            widget: "list"
+          - label: "Address"
+            name: "address"
+            widget: "markdown"
+          - label: "registration"
+            name: "registration"
+            widget: "markdown"
+      - label: "Social Media"
+        name: "socialmedia"
+        file: "site/data/socialmedia.yaml"
+        fields:
+          - label: "Social Links"
+            name: "links"
+            widget: "list"
+            fields:
+              - label: "Type"
+                name: "type"
+                widget: string
+              - label: "id"
+                name: "id"
+                widget: string
+              - label: "url"
+                name: "url"
+                widget: string
+      - label: "Case Studies"
+        name: "casestudies"
+        file: "site/data/casestudies.yaml"
+        fields:
+          - label: "Heading"
+            name: "heading"
+            widget: text
