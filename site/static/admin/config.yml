@@ -13,7 +13,7 @@ collections:
     label: "Games"
     label_singular: "Game"
     editor:
-      preview: true
+      preview: false
     folder: "site/content/games"
     create: true
     fields:
