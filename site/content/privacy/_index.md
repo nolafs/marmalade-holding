@@ -19,9 +19,7 @@ guarantee the functionality of our websites, and that your experience whilst vis
 1.4. By using our Digital Products you confirm that you have read and agree to this Privacy Policy,
 which includes Marmalade undertaking the following activities:
 (a) collecting, processing and using demographic information about you such as your age,
-gender, interests and the IP address that you use, to combine it with your personal
-
-information and to use it for analytic and marketing purposes;^
+gender, interests and the IP address that you use, to combine it with your personal information and to use it for analytic and marketing purposes;
 (b) contacting you from time to time by email to ask for your opinion and inviting you to online
 polls or surveys, linking the information you provide to your personal information and using this information for marketing purposes
 (c) using web beacons (or clear GIFs) on our website or in email messages or placing our
@@ -51,8 +49,8 @@ collection of information obtained offline will also be in compliance with appli
 protection law.
 
 2. COLLECTING PERSONAL INFORMATION
-    2.1. Marmalade only collects personal information from you on a voluntary basis. When you submit
-       personal information to Marmalade, it will usually take the form of:
+   2.1. Marmalade only collects personal information from you on a voluntary basis. When you submit
+      personal information to Marmalade, it will usually take the form of:
 
 (a)^ website registration;^
 (b)^ contests and promotions;^
@@ -77,13 +75,13 @@ or other products and services. Your responses to these polls help us provide pr
 services of interest to you.
 
 3. ONLINE SERVICES
-    3.1. Marmalade may provide you with a variety of online services such as accounts, forums,
-       message boards, and online games (“Online Services”). Marmalade may collect non-
-       personal information from you, such as scores, rankings, game play statistics, game feature
-       usages, and achievements. We may also collect information stored in your account
-       preferences and online profiles, including, for example, your purchases and friends lists.
-       Marmalade may combine non-personal information with personal information in order to tailor
-       advertisements, web pages, game play experiences, products, virtual goods and Online
+   3.1. Marmalade may provide you with a variety of online services such as accounts, forums,
+      message boards, and online games (“Online Services”). Marmalade may collect non-
+      personal information from you, such as scores, rankings, game play statistics, game feature
+      usages, and achievements. We may also collect information stored in your account
+      preferences and online profiles, including, for example, your purchases and friends lists.
+      Marmalade may combine non-personal information with personal information in order to tailor
+      advertisements, web pages, game play experiences, products, virtual goods and Online
 
 Services for you.^
 3.2. Further, use of certain features of Online Services, such as messages boards, profiles, and
@@ -96,7 +94,6 @@ Online Services directly from a third party gaming service, certain membership i
 there will be transferred automatically to Marmalade when you register.
 
 #### 4. PURCHASE OF GOODS OR SERVICES
-
 
 4.1. Goods and services purchased through our online store or one of our affiliate online stores will
 need to provide valid payment details (e.g. a valid credit card number and expiration date), in
@@ -112,12 +109,12 @@ sending the message. In using this online messaging tool you confirm that you an
 whom you are sending the message know each other.
 
 5. REFUSAL TO SUPPLY PERSONAL INFORMATION
-    5.1. If you do not want to submit personal information that is necessary to provide the service or to
-       fulfil your request, you will not be able to access and/or participate in certain activities. For
-       example, you will not be able to register on [http://www.marmaladegamestudio.com](http://www.marmaladegamestudio.com) or participate in
-       certain contests and promotions or access and/or use other online features or Online
-       Services. In addition, your refusal to submit personal information may limit our ability to
-       respond to your customer support inquiry in a timely fashion.
+   5.1. If you do not want to submit personal information that is necessary to provide the service or to
+      fulfil your request, you will not be able to access and/or participate in certain activities. For
+      example, you will not be able to register on <http://www.marmaladegamestudio.com> or participate in
+      certain contests and promotions or access and/or use other online features or Online
+      Services. In addition, your refusal to submit personal information may limit our ability to
+      respond to your customer support inquiry in a timely fashion.
 
 #### 6. COOKIES
 
@@ -141,7 +138,6 @@ websites or other online properties (e.g. advertising and analytics).
 device when it visits other, third party websites or^ online properties.^
 6.5. Third parties that set these cookies can recognize your computer or device both when it visits
 Marmalade websites or other online properties in question and also when it visits
-
 
 ©2017 Marmalade Game Studio Ltd.
 
@@ -199,7 +195,6 @@ browser to alert you when cookies are being sent to your computer.
 
 ©2017 Marmalade Game Studio Ltd.
 
-
 6.9. By using our websites and other online properties you agree, and we will assume you consent,
 to receive cookies through our websites and online properties unless you manage your cookie
 
@@ -217,7 +212,7 @@ Flash and similar applications use cookies to remember settings, preferences, an
 ways that are similar to browser cookies, but are managed through a different interface than
 your web browser. You can access your Flash management tools from
 
-[http://www.adobe.com/](http://www.adobe.com/) directly to manage your cookie settings.^
+<http://www.adobe.com/> directly to manage your cookie settings.^
 6.13. From time to time, we may use web beacons (or clear GIFs) on our websites or other online
 properties or include them in the e-mail messages we send you. Web beacons (also known
 as "Web Bugs") are small strings of code that provide a method of delivering a graphic image
@@ -238,7 +233,6 @@ cookies with third parties such as service providers or advertising networks in 
 them to provide services on our behalf or to partner with us in selecting and serving
 advertisements for us or our advertising partners.
 
-
 6.16. If you have signed in to a social networking site, such as Facebook, it may have set a cookie
 on your device which recognizes you when you view content on our websites and other online
 properties. These cookies allow you to share content across social media via the use of
@@ -246,10 +240,10 @@ sharing settings. See your social networking site’s Terms of Use and Privacy P
 
 details. For additional details, please see 7.8 below.^
 6.17. If you would like to find out more about cookies you may find the following link useful:^
-[http://www.allaboutcookies.org/](http://www.allaboutcookies.org/)
+<http://www.allaboutcookies.org/>
 
 7. USING PERSONAL INFORMATION
-    7.1. The information you submit to our websites and other online properties is collected and used
+   7.1. The information you submit to our websites and other online properties is collected and used
 
 by Marmalade Technologies, Ltd., 200 St John Street, London, EC1V 4RN, UK.^
 7.2. Marmalade may disclose personal information to vendors or employ vendors to collect
@@ -260,7 +254,6 @@ websites and other online properties by operating some of the services we provid
 address, e-mail address, and/or other personal information.^
 7.3. In addition, if you are a visitor to our websites and other online properties from outside the
 U.S., the personal information you provide may be collected, processed and stored ©2017 Marmalade Game Studio Ltd.
-
 
 directly on servers in the United States or other countries where Marmalade or our affiliates,
 subsidiaries, agents or vendors maintain facilities or business operations; collected,
@@ -314,7 +307,6 @@ applications); and^
 (c) contact you in accordance with your marketing preferences through the social networking
 sites or directly by sending you the latest news, special offerings, and rewards.
 
-
 ©2017 Marmalade Game Studio Ltd.
 
 (^)
@@ -349,5 +341,3 @@ reasonable steps to maintain all information collected secure and in its origina
 from any alteration. Access to all personal information is strictly controlled. In addition, we
 take reasonable steps to assure that vendors who collect personal information on our behalf
 provide reasonable levels of protection of personal information.^
-
-
