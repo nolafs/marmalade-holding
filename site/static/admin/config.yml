@@ -126,11 +126,11 @@ collections:
           - {label: Title, name: title, widget: string}
           - {label: "Body", name: "body", widget: "markdown"}
       - file: "site/content/app-privacy/_index.md"
-          label: "App Privacy Page"
-          name: "app-privacy"
-          fields:
-            - {label: Title, name: title, widget: string}
-            - {label: "Body", name: "body", widget: "markdown"}
+        label: "App Privacy Page"
+        name: "app-privacy"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: "Body", name: "body", widget: "markdown"}
   - name: "config"
     label: "Config"
     editor:
