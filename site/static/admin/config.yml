@@ -101,8 +101,7 @@ collections:
           - {label: "Stats", name: team, widget: object, fields: [
               {label: "Heading", name: "heading", widget: string, default: "The Team"},
               {label: "Text", name: "text", widget: "text"}
-              ]}
-          ]}
+            ]}
       - file: "site/content/contact/_index.md"
         label: "Contact Page"
         name: "contact"
