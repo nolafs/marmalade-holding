@@ -6,63 +6,53 @@ backend:
 media_folder: "site/static/images/uploads" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
 # publish_mode: editorial_workflow
-site_url: https://epic-poitras-ef2b6a.netlify.com
+site_url: https://determined-leakey-316eb1.netlify.com
 
 collections:
-  - name: "case-studies" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Case Studies" # Used in the UI, ie.: "New Post"
-    label_singular: "Case Study"
+  - name: "games"
+    label: "Games"
+    label_singular: "Game"
     editor:
       preview: true
-    folder: "site/content/case-studies" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    fields: # The fields each document in this collection have
+    folder: "site/content/games"
+    create: true
+    fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - label: "Categories"
-        name: "categories"
-        widget: "relation"
-        required: false
-        collection: "categories"
-        searchFields: ["name"]
-        valueField: "value"
-        displayFields: ["name"]
-      - {label: "Image", name: "image", widget: "image", required: true}
-      - label: "Testimonial"
-        name: "testimonial"
-        widget: "relation"
-        required: false
-        collection: "testimonials"
-        searchFields: ["name", "company"]
-        valueField: "name"
-        displayFields: ["name", "company"]
-      - {label: "Client", name: "client", widget: "string", required: true}
-      - {label: "Intro", name: "description", widget: "text"}
-      - {label: "Body", name: "body", widget: "markdown"}
-  - name: "categories"
-    label: "Categories"
-    folder: "site/data/categories"
-    extension: "yaml"
-    identifier_field: name
-    create: true
-    editor:
-      preview: false
-    fields:
-        - {label: "Name", name: "name", widget: string}
-        - {label: "Value", name: "value", widget: string}
-  - name: "testimonials"
-    label: "Testimonials"
-    folder: "site/content/testimonials"
-    create: true
-    editor:
-      preview: false
-    identifier_field: name
-    fields:
-      - {label: "Profile", name: "profile", widget: image}
-      - {label: "Text", name: "text", widget: "text"}
-      - {label: "Name", name: "name", widget: string}
-      - {label: "Position", name: "position", widget: string}
-      - {label: "Company", name: "company", widget: string}
+      - {label: "Background", name: "bg-image", widget: "image"},
+      - {label: "Hero Header", name: header, widget: object, fields: [
+          {label: "Logo", name: "logo", widget: "image", required: true},
+          {label: "Image", name: "image", widget: "image"},
+          {label: "Video", name: "video", widget: string},
+          {label: "Video Banner Active", name: "video_active", widget: "boolean"}
+        ]}
+      - {label: "About", name: "about", widget: object, fields: [
+          {label: "Title", name: "title", widget: "string"},
+          {label: "Body", name: "body", widget: "markdown"}
+        ]}
+      - {label: "Buy", name: "buy", widget: object, fields: [
+          {label: "Title", name: "title", widget: "string"},
+          {label: "Alt-Title", name: "alt-title", widget: "string"},
+          {label: "Background", name: "bg-image", widget: "image"},
+          {label: "Links", name: "links",  widget: "list", fields: [
+              {label: "Title", name: "title", widget: string},
+              {label: "Image", name: "image", widget: "image"},
+              {label: "url", name: "url", widget: string}
+          ]}
+        ]}
+      - {label: "Video", name: "video", widget: string},
+      - {label: "Features", name: "features", widget: "list", fields: [
+            {label: "Title", name: "title", widget: string},
+            {label: "Body", name: "body", widget: string},
+            {label: "Icon", name: "icon", widget: "image"}
+        ]}
+      - {label: "Screenshots", name: "screenshots", widget: "list", fields: [
+          {label: "Screenshot", name: "screenshot", widget: "image"}
+          {label: "Alt Text", name: "alt-text", widget: string}
+        ]}
+      - {label: "Partners", name: "partners", widget: "list", fields: [
+          {label: "Logo", name: "logo", widget: "image"}
+          {label: "Name", name: "name", widget: string}
+        ]}
   - name: "pages"
     label: "Pages"
     editor:
@@ -89,97 +79,28 @@ collections:
               {label: "Icon" , name: "icon" , widget: image},
               ]}
           ]}
-          - {label: "Clients Section", name: clients, widget: object, fields: [
-             {label: "Heading", name: "heading", widget: string},
-             {label: "Text", name: "text", widget: "text"},
-             {label: "Slider num of items", name: "slider_num", widget: string , default: 6},
-             {label: "Clients Featured", name: "clients_featured", widget: "list", fields: [
-             {label: "Name" , name: "company" , widget: "text"},
-             {label: "Link" , name: "company_url" , widget: string},
-             {label: "Logo" , name: "company_logo" , widget: image},
-             ]},
-             {label: "Clients", name: "clients", widget: "list", fields: [
-             {label: "Name" , name: "company" , widget: "text"},
-             {label: "Link" , name: "company_url" , widget: string},
-             {label: "Logo" , name: "company_logo" , widget: image},
-             ]}
-          ]}
-          - label: "Testimonial"
-            name: "testimonial"
-            widget: "relation"
-            collection: "testimonials"
-            searchFields: ["name", "company"]
-            valueField: "name"
-            displayFields: ["name", "company"]
-          - {label: "Contact Section", name: contact, widget: object, fields: [
-            {label: "Heading", name: "heading", widget: string},
-            {label: "Text", name: "text", widget: "text"},
-          ]}
       - file: "site/content/about/_index.md"
         label: "About Page"
         name: "about"
         editor:
           preview: false
         fields:
+          - {label: "Hero Header", name: header, widget: object, fields: [
+              {label: "Image", name: "image", widget: "image"},
+              {label: "Video", name: "video", widget: string},
+              {label: "Video Banner Active", name: "video_active", widget: "boolean"}
+            ]}
           - {label: Title, name: title, widget: string}
           - {label: "Body", name: "body", widget: "markdown"}
-          - {label: "Mission", name: mission, widget: object, fields: [
-              {label: "Image", name: "image", widget: "image"},
-              {label: "Heading", name: "heading", widget: string},
-              {label: "Text", name: "text", widget: "text"}
-          ]}
           - {label: "Values", name: values, widget: object, fields: [
               {label: "Image", name: "image", widget: "image"},
               {label: "Heading", name: "heading", widget: string, default: "Our Values"},
               {label: "Text", name: "text", widget: "text"}
           ]}
-          - {label: "Founder", name: founder, widget: object, fields: [
-              {label: "Image", name: "image", widget: "image"},
-              {label: "Heading", name: "heading", widget: string, default: "About the Founder"},
-              {label: "Founder Name", name: "subheading", widget: string, default: "Stefano Petrullo"},
-              {label: "Text", name: "text", widget: "markdown"}
-          ]}
-          - {label: "Team", name: team, widget: object, fields: [
+          - {label: "Video", name: "video", widget: string},
+          - {label: "Stats", name: team, widget: object, fields: [
               {label: "Heading", name: "heading", widget: string, default: "The Team"},
-              {label: "Text", name: "text", widget: "text"},
-              {label: "Team Members", name: "team_list", widget: "list", fields: [
-              {label: "Name" , name: "name" , widget: string},
-              {label: "Position" , name: "position" , widget: text},
-              {label: "Text" , name: "text" , widget: text},
-              {label: "Image" , name: "image" , widget: image},
-              ]}
-          ]}
-          - {label: "Why", name: why, widget: object, fields: [
-            {label: "Heading", name: "heading", widget: string},
-            {label: "Text", name: "text", widget: "markdown"},
-            {label: "Why List", name: "why_list", widget: "list", fields: [
-            {label: "Title" , name: "title" , widget: string},
-            {label: "Text" , name: "text" , widget: text},
-            {label: "Icon" , name: "icon" , widget: image},
-            ]}
-          ]}
-      - file: "site/content/services/_index.md"
-        label: "Services Page"
-        name: "services"
-        editor:
-          preview: false
-        fields:
-          - {label: Title, name: title, widget: string}
-          - {label: "Body", name: "body", widget: "markdown"}
-          - {label: "Services", name: services, widget: object, fields: [
-              {label: "Heading", name: "heading", widget: string},
-              {label: "Services List", name: "services_list", widget: "list", fields: [
-              {label: "Title" , name: "title" , widget: string},
-              {label: "text" , name: "text" , widget: text},
-              {label: "Icon" , name: "icon" , widget: image},
-              ]}
-          ]}
-          - {label: "Other Services", name: other_services, widget: object, fields: [
-              {label: "Heading", name: "heading", widget: string},
-              {label: "Text", name: "text", widget: text},
-              {label: "Services List", name: "services_other_list", widget: "list", fields: [
-              {label: "Title" , name: "title" , widget: string},
-              {label: "text" , name: "text" , widget: text},
+              {label: "Text", name: "text", widget: "text"}
               ]}
           ]}
       - file: "site/content/contact/_index.md"
@@ -238,22 +159,6 @@ collections:
               - {label: Dismiss, name: dismiss, widget: string, default: "Got it!"}
               - {label: Link, name: link, widget: string, default: "Privacy Policy"}
               - {label: Url, name: url, widget: string}
-      - label: "Awards"
-        name: "awards"
-        file: "site/data/awards.yaml"
-        fields:
-          - label: "Heading"
-            name: "heading"
-            widget: "string"
-          - label: "body"
-            name: "body"
-            widget: "markdown"
-          - label: "Awards"
-            name: "awards"
-            widget: "list"
-            fields:
-              - {label: Title, name: title, widget: string}
-              - {label: Image, name: image, widget: image}
       - label: "Contact"
         name: "contact"
         file: "site/data/contact.yaml"
@@ -287,10 +192,3 @@ collections:
               - label: "url"
                 name: "url"
                 widget: string
-      - label: "Case Studies"
-        name: "casestudies"
-        file: "site/data/casestudies.yaml"
-        fields:
-          - label: "Heading"
-            name: "heading"
-            widget: text

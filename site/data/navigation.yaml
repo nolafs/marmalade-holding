@@ -1,11 +1,7 @@
 items:
-  - link: /services
-    name: Services
-  - link: /case-studies
-    name: Case Studies
+  - link: /games
+    name: Games
   - link: /about
     name: About
   - link: /contact
     name: Contact
-  - link: /privacy
-    name: Privacy
