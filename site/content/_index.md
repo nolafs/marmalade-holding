@@ -1,7 +1,7 @@
 ---
-title: Ethical Communications for <span> the Games Industry.</span>
+title: Homepage
 header:
-  image: /images/uploads/home-hero-790px.jpg
+  image: /images/uploads/monopoly-hero.jpg
   video: Oxlflrh_Pzw
   video_active: true
 services:
@@ -46,6 +46,5 @@ services:
     It’s not about aimlessly shouting about your game to anyone willing to lend
     their ear: We’re here to take your creativity and make sure right people
     hears about it in the right way, at the right time, in the right place
-
 ---
 Creating the best environment for the games industry’s most innovative projects to succeed through strategic, measurable and curated planning
