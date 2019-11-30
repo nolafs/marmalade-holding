@@ -8,8 +8,10 @@
   &.card{
     background: #e71e8c;
     .card-image-overlay{
-      top: -25px;
-      right: -125px;
+      img{
+        width: 43%;
+        transform: translateX(189%) translateY(-11%);
+      }
     }
   }
 }
@@ -19,8 +21,10 @@
     background: #9fcc2a;
 
     .card-image-overlay{
-        top: -60px;
-        right: -99px;
+      img{
+        width: 36%;
+        transform: translateX(217%) translateY(-27%);
+      }
     }
   }
 }
@@ -30,8 +34,10 @@
     background: #28abdd;
 
     .card-image-overlay{
-      top: -43px;
-      left: -32px;
+      img{
+        width: 50%;
+        transform: translateX(-9%) translateY(-12%);
+      }
     }
 
     .card-video {
@@ -46,8 +52,9 @@
     background: #2e3691;
 
     .card-image-overlay{
-      top: -138px;
-      left: -270px;
+      img{
+        transform: translateX(-45%) translateY(-37%);
+      }
     }
   }
 }
