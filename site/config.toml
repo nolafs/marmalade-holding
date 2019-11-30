@@ -42,6 +42,11 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
         identifier = "privacy"
         name = "Privacy Policy"
         url = "/privacy"
+        weight = 1
+    [[menu.secondary]]
+        identifier = "app-privacy"
+        name = "App Privacy Policy"
+        url = "/app-privacy"
         weight = 2
 # Privacy
 

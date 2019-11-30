@@ -18,6 +18,7 @@ collections:
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Class", name: "class", widget: "string"}
       - {label: "Background", name: "bg-image", widget: "image"}
       - {label: "Hero Header", name: header, widget: object, fields: [
           {label: "Logo", name: "logo", widget: "image", required: true},
@@ -65,20 +66,11 @@ collections:
           - {label: Title, name: title, widget: string}
           - {label: "Hero Header", name: header, widget: object, fields: [
               {label: "Image", name: "image", widget: "image"},
+              {label: "Logo", name: "logo", widget: "image"},
               {label: "Video", name: "video", widget: string},
               {label: "Video Banner Active", name: "video_active", widget: "boolean"}
             ]}
           - {label: "Body", name: "body", widget: "markdown"}
-          - {label: "Services Section", name: services, widget: object, fields: [
-              {label: "Heading", name: "heading", widget: string},
-              {label: "Text", name: "text", widget: text},
-              {label: "Subheader", name: "subheader", widget: string},
-              {label: "Services List", name: "services_list", widget: "list", fields: [
-              {label: "Title" , name: "title" , widget: string},
-              {label: "text" , name: "text" , widget: text},
-              {label: "Icon" , name: "icon" , widget: image},
-              ]}
-          ]}
       - file: "site/content/about/_index.md"
         label: "About Page"
         name: "about"
@@ -110,15 +102,6 @@ collections:
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Body, name: body, widget: markdown}
-          - {label: "Contact Information", name: contacts, widget: object, fields: [
-              {label: "Heading", name: "heading", widget: string, default: "Contact Information"},
-              {label: "Telephone Numbers", name: "tel_list", widget: "list", fields: [
-                {label: "tel" , name: "tel" , widget: string},
-              ]},
-              {label: "Emails", name: "email_list", widget: "list", fields: [
-                {label: "Email" , name: "email" , widget: string},
-              ]}
-          ]}
       - file: "site/content/privacy/_index.md"
         label: "Privacy Page"
         name: "privacy"
