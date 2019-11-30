@@ -1,6 +1,8 @@
 ---
 title: Monopoly
-bg-image: /images/uploads/monopoly-icons-pattern.png
+class: monopoly-schema
+bg-image: ''
+Overlay Image: /images/uploads/life-the-game-bike.png
 header:
   image: /images/uploads/monopoly-hero.jpg
   logo: /images/uploads/monopolylogowhite.png
