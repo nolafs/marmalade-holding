@@ -1,8 +1,8 @@
 
 <div class="{{.Params.class}} card game">
-        {{ with .Params.image }}
-        <div class="card-image-wrapper">
-            <img src="{{ . }}?nf_resize=fit&w=450&h=253" alt="">
+        {{ with .Params.overlay }}
+        <div class="card-image-overlay">
+            <img src="{{ . }}" alt="{{.Title }}">
         </div>
         {{end}}
         <div class="card-section">

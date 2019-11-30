@@ -1,9 +1,9 @@
 <section>
     <div id="games-list" class="grid-container full block">
         <div class="grid-container">
-            <h2 class=" f-c-white">Other titles</h2>
+            <h2 class="f-c-primary">Other Titles</h2>
             <div class="grid-x grid-padding-x grid-padding  grid-margin-y small-up-1 medium-up-2">
-                {{ range $index, $content := first 5 (where (where .Data.Pages "Type" "games") ".Params.other" "eq" "true")  }}
+                {{ range $index, $content := first 5 (where (where .Data.Pages "Type" "games") ".Params.other" "==" true)  }}
                 <div class="cell i-{{$index}}">
                     {{with $content}}
                     {{ .Render "game"}}
