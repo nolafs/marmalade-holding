@@ -1,6 +1,7 @@
 import twitterFetcher from 'twitter-fetcher';
 import $ from 'jquery';
 import 'slick-carousel';
+import Rellax from 'rellax/rellax.min';
 
 import ScrollMagic from 'scrollmagic/scrollmagic/minified/ScrollMagic.min';
 import 'scrollmagic/scrollmagic/minified/plugins/debug.addIndicators.min';
@@ -145,6 +146,8 @@ export default {
             fade: true,
             autoplaySpeed: 2500,
         });
+
+        const rellax = new Rellax('.rellax');
 
         //this.animHeader();
         //this.animList();

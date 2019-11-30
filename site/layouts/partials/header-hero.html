@@ -1,6 +1,6 @@
 
 {{ "<!-- hero header -->" | safeHTML }}
-<div class="hero-header container {{if .media.video_active}} video-active {{end}}">
+<div class="hero-header rellax container {{if .media.video_active}} video-active {{end}}">
     <div class="hero-header-inner">
         <div class="contentWrapper">
             <div class="grid-container">
@@ -12,7 +12,7 @@
                             <h1>{{.title | safeHTML}}</h1>
                             {{else}}
                             <div class="hero-header-logo">
-                                <img src="{{.media.logo}}" alt="">
+                                <img src="{{.media.logo}}" alt="{{.media.title}}}">
                             </div>
                             {{ end }}
                         </div>
