@@ -8,7 +8,7 @@ const common = require("./webpack.common");
 
 module.exports = merge(common, {
   mode: "development",
-
+  devtool: 'source-map',
   output: {
     filename: "[name].js",
     chunkFilename: "[id].css"
@@ -21,11 +21,13 @@ module.exports = merge(common, {
         exclude: /node_modules/,
         use: ["style-loader",  {
           loader: "css-loader", options: {
-            sourceMap: true
+            sourceMap: true,
           }
         },
         {
-            loader: "postcss-loader"
+            loader: "postcss-loader",options: {
+            sourceMap: true,
+          }
         },
         {
           loader: "sass-loader", options: {

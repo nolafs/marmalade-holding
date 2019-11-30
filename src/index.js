@@ -42,7 +42,7 @@ $(document).foundation();
  =========================================================================== */
 
 import { library, dom } from "@fortawesome/fontawesome-svg-core";
-import { faFacebook, faTwitter, faFacebookF } from "@fortawesome/free-brands-svg-icons";
+import { faTwitterSquare, faFacebookSquare, faInstagram, faYoutubeSquare} from "@fortawesome/free-brands-svg-icons";
 import { faCheck , faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
 
@@ -72,8 +72,6 @@ if (window.netlifyIdentity) {
 
 // DOCUMENT READY
 import "./js/apps";
-import {faInstagram} from "@fortawesome/free-brands-svg-icons/faInstagram";
-import {faYoutubeSquare} from "@fortawesome/free-brands-svg-icons/faYoutubeSquare";
 
 
 

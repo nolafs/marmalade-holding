@@ -123,7 +123,7 @@ export default {
     },
     finalize() {
         // JavaScript to be fired on all pages, after page specific JS is fired
-
+        /*
         var configProfile = {
             "profile": {"screenName": 'RenaissancePRUK'},
             "domId": 'tweet-post',
@@ -135,7 +135,7 @@ export default {
             "lang": 'en'
         };
         twitterFetcher.fetch(configProfile);
-
+        */
 
         $('.slick-slider').slick({
             arrows: false,
@@ -146,9 +146,9 @@ export default {
             autoplaySpeed: 2500,
         });
 
-        this.animHeader();
-        this.animList();
-        this.animServices();
+        //this.animHeader();
+        //this.animList();
+        //this.animServices();
         this.animBlocks();
     },
 };
