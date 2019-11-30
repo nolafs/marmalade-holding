@@ -4,6 +4,7 @@ header:
   image: /images/uploads/monopoly-hero.jpg
   link: /games/monopoly/
   logo: /images/uploads/monopolylogowhite.png
+  title: Monopoly
   video: Oxlflrh_Pzw
   video_active: false
 ---
