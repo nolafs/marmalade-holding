@@ -74,8 +74,8 @@ collections:
             ]}
           - {label: "About section", name: about, widget: object, fields: [
               {label: "Title", name: "title", widget: "string"},
-              {label: "Body", name: "body", widget: "markdown"}
-              {label: "image", name: "image", widget: "image"}
+              {label: "Body", name: "body", widget: "markdown"},
+              {label: "image", name: "image", widget: "image"},
               {label: "link", name: "link", widget: "string"}
           ]}
       - file: "site/content/about/_index.md"
