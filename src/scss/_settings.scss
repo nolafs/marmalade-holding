@@ -116,7 +116,7 @@ $block-grid-max: 8;
 // 4. Base Typography
 // ------------------
 
-$header-font-family:  'Montserrat', sans-serif;
+$header-font-family: open-sans, sans-serif;
 $header-font-weight: 700;
 $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
@@ -142,7 +142,7 @@ $header-styles: (
                 ),
         large: (
                 'h1': ('font-size': 70, 'line-height':94),
-                'h2': ('font-size': 42, 'line-height':60),
+                'h2': ('font-size': 42, 'line-height':40),
                 'h3': ('font-size': 30, 'line-height':46),
                 'h4': ('font-size': 24, 'line-height':36),
                 'h5': ('font-size': 22, 'line-height':34),
@@ -153,7 +153,7 @@ $header-text-rendering: optimizeLegibility;
 $small-font-size: 60%;
 $header-small-font-color: $primary-color;
 $paragraph-lineheight: 1.6;
-$paragraph-margin-bottom: rem-calc(30);
+$paragraph-margin-bottom: rem-calc(22);
 $paragraph-text-rendering: optimizeLegibility;
 $code-color: $black;
 $code-font-family: $font-family-monospace;
@@ -813,12 +813,12 @@ $thumbnail-radius: $global-radius;
 // 53. Title Bar
 // -------------
 
-$titlebar-background: $white;
+$titlebar-background: $primary-color;
 $titlebar-color: $black;
 $titlebar-padding: 0.8rem;
 $titlebar-text-font-weight: bold;
-$titlebar-icon-color: $primary-color;
-$titlebar-icon-color-hover: $primary-color;
+$titlebar-icon-color: $secondary-color;
+$titlebar-icon-color-hover: $secondary-color;
 $titlebar-icon-spacing: 0.45rem;
 
 // 54. Tooltip
@@ -840,7 +840,7 @@ $tooltip-radius: $global-radius;
 // -----------
 
 $topbar-padding: 0.5rem;
-$topbar-background: $white;
+$topbar-background: $primary-color;
 $topbar-submenu-background: $topbar-background;
 $topbar-title-spacing: 0.5rem 1rem 0.5rem 0;
 $topbar-input-width: 200px;

@@ -1,7 +1,7 @@
 ---
 title: App Privacy
 ---
-# Privacy Policy
+## Privacy Policy
 
 This Privacy Policy is set out by Marmalade Game Studio Ltd. (including its wholly owned
 subsidiaries) (“Marmalade”) of 2 - 7 Clerkenwell Green, London, EC1R 0DE, UK as at 1 st November
@@ -13,7 +13,7 @@ distributed to you by Marmalade.
 It is Marmalade’s policy to respect your privacy regarding any information we may collect while
 operating our applications.
 
-## App Users
+### App Users
 
 Like most app operators, Marmalade collects non-personally-identifying information of the sort
 that operators of mobile apps typically collect.
@@ -27,7 +27,7 @@ how customers use our products.
 
 By choosing to use Marmalade mobile or tablet applications you hereby consent to such activities.
 
-## Gathering of Personally-Identifying Information
+### Gathering of Personally-Identifying Information
 
 Marmalade only collects personal information from you on a voluntary basis. The amount and
 type of information that Marmalade gathers depends on the nature of the interaction.
@@ -58,7 +58,7 @@ addresses, or phone numbers, without permission, when online. Children under the
 over the age of 12 should encourage their parents to review this Privacy Policy and to contact us if
 they would like to evoke our opt-out policy or to raise any concerns.
 
-## Aggregated Statistics
+### Aggregated Statistics
 
 We partner with certain mobile analytics, advertising, and technology partners. Such mobile
 partners may use a tracking pixel, agent or any other visitor identification technology that
@@ -71,7 +71,7 @@ analytics or advertising partners. An example of the use of such information wou
 between two anonymous groups of end users to compare the performance of different versions of
 the mobile application.
 
-## Protection of Certain Personally-Identifying Information
+### Protection of Certain Personally-Identifying Information
 
 Any information you choose to submit is collected and used by Marmalade Game Studio Ltd., 2 - 7
 Clerkenwell Green, London, EC1R 0DE United Kingdom.
@@ -106,7 +106,7 @@ consultants and law enforcement or other government officials. In addition, in t
 acquisition, reorganization, bankruptcy, or other similar event, Marmalade's customer information
 including personal information may be transferred to our successor or other designated party.
 
-## Privacy Policy Changes
+### Privacy Policy Changes
 
 Marmalade reserves the right to make changes to this Privacy Policy. If we make a material change
 to this Privacy Policy, we will post a notice of the change on this Privacy Policy. Your continued use

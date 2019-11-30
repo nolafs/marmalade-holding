@@ -1,34 +1,43 @@
 #footer {
-  border-top: 1px solid $light-gray;
+  background: $primary-color;
   padding-top: rem-calc(95);
-  margin-bottom: rem-calc(30);
+  padding-bottom: rem-calc(30);
+  color: $white;
+  text-align: center;
+  font-family: museo-sans, sans-serif;
+  font-weight: 300;
 
   @include breakpoint(small only){
-    padding-top: rem-calc(50);
-  }
-}
-
-
-.contacts {
-  a {
-    color: $body-font-color
+    padding-top: rem-calc(60);
   }
 
   ul{
-    margin-bottom: rem-calc(50);
-
-    @include breakpoint(small only){
-      margin-bottom: 0;
+    text-align: center;
+    justify-content: center;
+    a{
+      color: $white;
     }
   }
 }
 
 .registation {
-  font-size: rem-calc(14);
+  text-transform: uppercase;
+  a{
+    color: white;
+    text-decoration: underline;
+    margin-left: rem-calc(5);
+
+    &:hover{
+      color:$secondary-color;
+    }
+  }
 }
 
 .secondary {
   .menu{
+    ul{
+      display: inline-block;
+    }
     li:first-child {
       a{
         padding-left: 0;

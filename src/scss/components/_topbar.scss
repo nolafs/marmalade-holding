@@ -50,6 +50,7 @@
       }
 
       a {
+        color: $white;
         padding-top: rem-calc(25);
         padding-bottom: rem-calc(25);
 
@@ -70,7 +71,7 @@
 
       &.active{
         a{
-          color: $primary-color;
+          color: $secondary-color;
         }
         &:not(.menu-logo) :after {
           @extend .box-indicator;
@@ -116,9 +117,9 @@
 
     }
     &.is-stuck{
-      color:$primary-color;
+      color:$white;
       padding: 0;
-      background-color: white;
+      background-color: $topbar-background;
       transition: 0.5s all ease-in-out;
     }
   }
