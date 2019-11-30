@@ -1,19 +1,33 @@
 .monopoly-schema {
-
+  &.card{
+    background: #fb2d35;
+  }
 }
 
 .life-vacation-schema {
-
+  &.card{
+    background: #e71e8c;
+  }
 }
 
 .life-the-game-schema {
-
+  &.card{
+    background: #9fcc2a;
+  }
 }
 
 .cluedo-schema {
+  &.card{
+    background: #28abdd;
+    .card-video {
+      background: #2e3691;
 
+    }
+  }
 }
 
 .battleship-schema {
-
+  &.card{
+    background: #2e3691;
+  }
 }

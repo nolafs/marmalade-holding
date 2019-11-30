@@ -19,10 +19,11 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Class", name: "class", widget: "string"}
-      - {label: "Background", name: "bg-image", widget: "image"}
+      - {label: "Background", name: "bg-image", widget: "image" , required: false}
+      - {label: "overlay", name: "Overlay Image", widget: "image"}
       - {label: "Hero Header", name: header, widget: object, fields: [
           {label: "Logo", name: "logo", widget: "image", required: true},
-          {label: "Image", name: "image", widget: "image"},
+          {label: "Image", name: "image", widget: "image", required: false},
           {label: "Video", name: "video", widget: string , required: false},
           {label: "Video Banner Active", name: "video_active", required: false,  widget: "boolean"}
         ]}
