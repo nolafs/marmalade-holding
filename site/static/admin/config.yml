@@ -22,7 +22,7 @@ collections:
       - {label: "Weight", name: "weight", widget: "number"}
       - {label: "Show on other list", name: "other", required: false,  widget: "boolean"}
       - {label: "Background", name: "bg-image", widget: "image" , required: false}
-      - {label: "overlay", name: "overlay-image", widget: "image"}
+      - {label: "overlay", name: "overlay_image", widget: "image"}
       - {label: "Hero Header", name: header, widget: object, fields: [
           {label: "Logo", name: "logo", widget: "image", required: true},
           {label: "Image", name: "image", widget: "image", required: false},

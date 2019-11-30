@@ -1,15 +1,14 @@
 .card {
   display: flex;
+  position: relative;
   flex-direction: column;
   justify-content: center;
   align-content: center;
   height: 100%;
+  overflow: visible;
 
-  .card-image-wrapper {
-    min-height: 1px;
-    img {
-      flex: none;
-    }
+  .card-image-overlay {
+    position:absolute;
   }
 
   .card-section {

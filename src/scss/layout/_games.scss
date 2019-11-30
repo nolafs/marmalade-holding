@@ -7,18 +7,33 @@
 .life-vacation-schema {
   &.card{
     background: #e71e8c;
+    .card-image-overlay{
+      top: -25px;
+      right: -125px;
+    }
   }
 }
 
 .life-the-game-schema {
   &.card{
     background: #9fcc2a;
+
+    .card-image-overlay{
+        top: -60px;
+        right: -99px;
+    }
   }
 }
 
 .cluedo-schema {
   &.card{
     background: #28abdd;
+
+    .card-image-overlay{
+      top: -43px;
+      left: -32px;
+    }
+
     .card-video {
       background: #2e3691;
 
@@ -29,5 +44,10 @@
 .battleship-schema {
   &.card{
     background: #2e3691;
+
+    .card-image-overlay{
+      top: -138px;
+      left: -270px;
+    }
   }
 }
