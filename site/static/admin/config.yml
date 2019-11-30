@@ -19,6 +19,7 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Class", name: "class", widget: "string"}
+      - {label: "Show on other list", name: "other", required: false,  widget: "boolean"}
       - {label: "Background", name: "bg-image", widget: "image" , required: false}
       - {label: "overlay", name: "Overlay Image", widget: "image"}
       - {label: "Hero Header", name: header, widget: object, fields: [
