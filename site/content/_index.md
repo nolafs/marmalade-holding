@@ -2,6 +2,7 @@
 title: Homepage
 header:
   image: /images/uploads/monopoly-hero.jpg
+  link: /games/monopoly/
   logo: /images/uploads/monopolylogowhite.png
   video: Oxlflrh_Pzw
   video_active: false
