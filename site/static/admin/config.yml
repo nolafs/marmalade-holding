@@ -27,13 +27,13 @@ collections:
           {label: "Video Banner Active", name: "video_active", required: false,  widget: "boolean"}
         ]}
       - {label: "About", name: "about", widget: object, fields: [
-          {label: "Title", name: "title", widget: "string"},
-          {label: "Body", name: "body", widget: "markdown"}
+          {label: "Title", name: "title", widget: "string" , required: false},
+          {label: "Body", name: "body", widget: "markdown",  required: false}
         ]}
-      - {label: "Buy", name: "buy", widget: object, fields: [
-          {label: "Title", name: "title", widget: "string"},
-          {label: "Alt-Title", name: "alt-title", widget: "string"},
-          {label: "Background", name: "bg-image", widget: "image"},
+      - {label: "Buy", name: "buy", widget: object,  required: false, fields: [
+          {label: "Title", name: "title", widget: "string" , required: false},
+          {label: "Alt-Title", name: "alt-title", widget: "string", required: false},
+          {label: "Background", name: "bg-image", widget: "image", required: false},
           {label: "Links", name: "links",  widget: "list", fields: [
               {label: "Title", name: "title", widget: string},
               {label: "Image", name: "image", widget: "image"},
