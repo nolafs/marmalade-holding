@@ -46,7 +46,7 @@ import { faFacebook, faTwitter, faFacebookF } from "@fortawesome/free-brands-svg
 import { faCheck , faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
 
-library.add(faCheck, faChevronRight, faTwitter, faFacebookF );
+library.add(faCheck, faChevronRight, faTwitterSquare, faFacebookSquare, faInstagram, faYoutubeSquare );
 
 dom.watch();
 /* ===========================================================================
@@ -72,6 +72,8 @@ if (window.netlifyIdentity) {
 
 // DOCUMENT READY
 import "./js/apps";
+import {faInstagram} from "@fortawesome/free-brands-svg-icons/faInstagram";
+import {faYoutubeSquare} from "@fortawesome/free-brands-svg-icons/faYoutubeSquare";
 
 
 
