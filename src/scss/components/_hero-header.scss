@@ -13,35 +13,15 @@
         color: $green
       }
     }
-    p{
-      font-size: rem-calc(22);
+
+    .hero-header-logo {
+      text-align: center;
     }
 
     @include breakpoint(small only){
       h1{
         font-size: rem-calc(39);
       }
-      p{
-        font-size: rem-calc(18);
-      }
-    }
-  }
-
-  .lightning {
-    position: absolute;
-    bottom: -100px;
-    right: 0;
-    z-index: 10;
-
-    @include breakpoint(small only){
-      width: 80%;
-      bottom: -50px;
-    }
-
-    @include breakpoint(medium only){
-      width: 54%;
-      bottom: -50px;
-      right: 20px;
     }
   }
 
@@ -52,7 +32,7 @@
     width: 100%;
     height: 100%;
     z-index: 12;
-    padding-top: 100px;
+    padding-top: 50px;
 
     @include breakpoint(small) {
       padding-top: 70px;

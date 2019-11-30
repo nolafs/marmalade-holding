@@ -1,7 +1,7 @@
 baseurl = "/"
 languageCode = "en-us"
 languageLang = "en"
-title = "Renaissance PR Agency"
+title = "Marmalade Game Studio"
 
 [imaging]
 quality = 60
@@ -76,7 +76,7 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
     custom_navbar= false
     cms_navbar = true
     host_name = "https://eloquent-curran-2d10a7.netlify.com"
-    description = "Count on our PR agency to provide exclusive video game PR services at competitive prices. Call us on 01483 665493 for more information."
+    description = "Marmalade Game Studio was founded on a passion and commitment to create great gameplay experiences for mobile and connected devices. We prototype, reflect, and test with target audiences to craft games that people love to play. Headquartered in London, UK with a further studio in Lisbon, Portugal, our goal is to continuously develop compelling high…"
     logo_large="/images/logo-full.png"
     logo_small="/images/logo-icon.png"
     logo_mobile="/images/logo-mobile.png"
