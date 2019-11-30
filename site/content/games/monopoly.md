@@ -7,7 +7,7 @@ header:
   image: /images/uploads/monopoly-hero.jpg
   logo: /images/uploads/monopolylogowhite.png
   video: adasdada
-  video_active: true
+  video_active: false
 about:
   body: test this content
   title: About the game
