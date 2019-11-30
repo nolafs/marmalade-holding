@@ -8,10 +8,9 @@ $( window ).on('load', function() {
 import Router from './util/Router';
 import common from './routes/common';
 import home from './routes/home';
-import services from './routes/services';
 import contact from './routes/contact';
 import about from './routes/about';
-import caseStudies from './routes/caseStudies';
+import games from './routes/games';
 
 /** Populate Router instance with DOM routes */
 const routes = new Router({
@@ -19,8 +18,7 @@ const routes = new Router({
     common,
     home,
     contact,
-    caseStudies,
-    services,
+    games,
     about
 });
 
