@@ -1,5 +1,5 @@
 ---
-title: Homepage
+title: About Us
 header:
   image: /images/uploads/monopoly-hero.jpg
   link: /games/monopoly/
