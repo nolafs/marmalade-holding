@@ -2,49 +2,10 @@
 title: Homepage
 header:
   image: /images/uploads/monopoly-hero.jpg
+  logo: /images/uploads/monopolylogowhite.png
   video: Oxlflrh_Pzw
-  video_active: true
-services:
-  heading: How can we help your business?
-  services_list:
-    - icon: /images/uploads/icon.svg
-      text: >-
-        A great campaign is the sum of its parts - business plan, target
-        audience, marketing plan and sales strategy. At Renaissance we’re proud
-        to have a pool of talent we can call on across all disciplines, with a
-        wealth of experience to ensure you’re in the right place to make the
-        most of your communication strategy
-      title: Go-to-market Communication Planning
-    - icon: /images/uploads/icon-1-.svg
-      text: >
-        Putting media and influencers in the best possible position to cover
-        your game, making their job easier, delivering the right content to the
-        right audience thanks to our relationship with the most influential
-        media and content creator worldwide
-      title: Earned PR Campaign Planning
-    - icon: /images/uploads/icon-2-.svg
-      text: >
-        First Party relationship, assets management and store page optimization
-        as well as an eye to your production pipeline are vital to deliver a
-        great communication campaign that delivers the engagement numbers you
-        need
-      title: Product Management  & Support
-    - icon: /images/uploads/icon-3-.svg
-      text: >
-        Identifying the best audience for your product through both organic and
-        paid campaign planning to reach your goals. Using the most advanced
-        search tools available, combined with our invaluable market knowledge of
-        our team we always keep in mind the best ROI
-      title: Paid & Organic Influencer Planning
-  subheader: Core Services
-  text: >
-    Renaissance believes in working in an integrated fashion to support the
-    bespoke needs of your business, making sure we target the right media mix
-    for your project’s needs.
-
-
-    It’s not about aimlessly shouting about your game to anyone willing to lend
-    their ear: We’re here to take your creativity and make sure right people
-    hears about it in the right way, at the right time, in the right place
+  video_active: false
 ---
-Creating the best environment for the games industry’s most innovative projects to succeed through strategic, measurable and curated planning
+Marmalade Game Studio was founded on a passion and commitment to create great gameplay experiences for mobile and connected devices. We prototype, reflect, and test with target audiences to craft games that people love to play. Headquartered in London, UK with a further studio in Lisbon, Portugal, our goal is to continuously develop compelling high quality games for the digitally-distributed games market.
+
+Join our BAFTA nominated team of talented creative people that like to work together and genuinely enjoy spending time with each other. We’re a friendly group who will welcome you to board game lunches, meals in lovely Clerkenwell, epic game competitions and all sorts of fun events. We have the utmost respect for professional and personal development and take great pride in growing people from within. We like smart, responsible people who are passionate about games. If you prove to be a good match, we’ll do everything in our powers to help you achieve your potential.
