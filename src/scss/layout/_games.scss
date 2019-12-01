@@ -1,14 +1,18 @@
 .monopoly-schema {
-  &.card{
+  &.card {
     background: #fb2d35;
   }
 }
 
 .life-vacation-schema {
-  &.card{
-    background: #e71e8c;
-    .card-image-overlay{
-      img{
+  &.card {
+
+    .card-section {
+      background: #e71e8c;
+    }
+
+    .card-image-overlay {
+      img {
         width: 43%;
         transform: translateX(189%) translateY(-11%);
       }
@@ -17,11 +21,13 @@
 }
 
 .life-the-game-schema {
-  &.card{
-    background: #9fcc2a;
+  &.card {
+    .card-section {
+      background: #9fcc2a;
+    }
 
-    .card-image-overlay{
-      img{
+    .card-image-overlay {
+      img {
         width: 36%;
         transform: translateX(217%) translateY(-27%);
       }
@@ -30,15 +36,18 @@
 }
 
 .cluedo-schema {
-  &.card{
-    background: #28abdd;
+  &.card {
+    .card-section {
+      background: #28abdd;
+    }
 
-    .card-image-overlay{
-      img{
+    .card-image-overlay {
+      img {
         width: 50%;
         transform: translateX(-9%) translateY(-12%);
       }
     }
+
 
     .card-video {
       background: #2e3691;
@@ -48,13 +57,23 @@
 }
 
 .battleship-schema {
-  &.card{
-    background: #2e3691;
+  &.card {
 
-    .card-image-overlay{
-      img{
+    .card-section {
+      background: #2e3691;
+    }
+
+    .card-image-overlay {
+      img {
         transform: translateX(-45%) translateY(-37%);
       }
     }
+  }
+}
+
+.card.game{
+  .card-section{
+    padding-bottom: rem-calc(20);
+    margin-bottom: rem-calc(30);
   }
 }

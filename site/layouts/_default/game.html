@@ -22,6 +22,20 @@
               {{partial "youtube" (dict "media" .Params)}}
             </div>
         </div>
+    <div class="buy p-b-30">
+        {{with .Params.buy}}
+        <div class="grid-container">
+            <div class="grid-x grid-margin-y align-center-middle text-center">
+                {{ range .links}}
+                <div class="cell small-6">
+                    <a href="{{.url}}"><img src="/images/img-{{.type}}.png" alt="{{.type}}"></a>
+                </div>
+                {{end}}
+            </div>
+        </div>
+        {{end}}
+    </div>
 </div>
+
 
 
