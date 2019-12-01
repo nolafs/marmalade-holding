@@ -7,7 +7,7 @@
 {{end}}
 {{ define "main" }}
 <section>
-<div id="block-studies" class="grid-container block">
+<div id="block-games" class="grid-container block">
     <div class="grid-container">
         <div id="list-grid" class="list grid-x grid-padding-x grid-margin-y">
             {{ $paginator := .Paginate (where (where .Pages.ByDate.Reverse "Type" "games") ".Params.other" "!=" true)}}
