@@ -5,12 +5,8 @@ header:
   video_active: false
 title: Marmalade Game Studio
 values:
-  heading: Our Vales
-  image: /images/uploads/iphone-mockup.png
-  text: >-
-    Headquartered in London, with another studio in Lisbon, our passion for
-    games unites us. At Marmalade, we are committed to growing people from
-    within. If you prove to be a good match
+  title: Other Titles
+  body: We are immensely proud to have released these other chart-topping titles...
 video: EyNNzmBK-fo
 ---
 
