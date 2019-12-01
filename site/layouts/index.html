@@ -2,32 +2,29 @@
     {{ partial "header-hero"  (dict "media" .Params.header "title" .Title "body" .Content)}}
 {{end}}
 {{ define "main" }}
-    <div id="home-services" class="grid-container block">
-        <div class="grid-x grid-padding-x grid-margin-y">
-            <div class="cell small-12 large-6 small-text-left large-text-right section-heading">
-                <div class="home-service-heading">
-                    <h2><div class="h-anim">{{.Params.services.heading}}</div></h2>
-                </div>
-                <div class="home-service-content">
-                    <p>{{.Params.services.text}}</p>
-                    <a href="/services" class="large button">All our Services</a>
-                </div>
-            </div>
-            <div class="cell small-12 large-5 large-offset-1">
-                <h3 class="h-anim-2">{{.Params.services.subheader}}</h3>
-                <ul class="block-icon-list no-bullet">
-                    {{ range .Params.services.services_list}}
-                    <li>
-                        <div class="item">
-                            <img src="{{.icon}}" alt="{{.title}}">
-                            <h4>{{.title}}</h4>
-                            <p>{{.text}}</p>
-                        </div>
-                    </li>
-                    {{ end }}
-                </ul>
+
+{{ range $index, $content := first 1 ( sort (where (where .Pages.ByDate.Reverse  "Type" "games") ".Params.other" "!=" true) ".Params.weight" "value" "desc")  }}
+    {{with $content}}
+        {{partial "block-game-link" .}}
+    {{end}}
+{{end}}
+{{ with .Site.GetPage "/about"}}
+<div id="home-services" >
+    <div class="grid-container full about-image " style="background: url('{{.Params.header.image}}')">
+        <div class="grid-x align-center-middle text-center">
+            <div class="cell">
+                <img src="{{.Params.header.logo}}" alt="">
             </div>
         </div>
     </div>
-    {{ partial "block-games" .}}
+    <div class="grid-container block">
+        <div class="grid-x grid-padding-x grid-margin-y align-center-middle text-center">
+            <div class="cell small-6">
+                <h1>{{.Params.about.heading}}</h1>
+                <p></p>
+            </div>
+        </div>
+    </div>
+</div>
+{{end}}
 {{ end }}

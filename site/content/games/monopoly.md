@@ -1,7 +1,7 @@
 ---
 title: Monopoly
 short: |-
-  MONOPOLY, the popular family board game,
+  MONOPOLY, the popular family board game,\
   comes to life on your mobile!
 class: monopoly-schema
 weight: 1

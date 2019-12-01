@@ -93,6 +93,7 @@ collections:
           preview: false
         fields:
           - {label: "Title", name: "title", widget: "string"}
+          - {label: "Short", name: "short", widget: "markdown", required: false}
           - {label: "Hero Header", name: header, widget: object, fields: [
               {label: "Image", name: "image", widget: "image"},
               {label: "Logo", name: "logo", widget: "image", required: false},

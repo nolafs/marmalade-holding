@@ -1,9 +1,12 @@
 ---
+title: About
 header:
   image: /images/uploads/hero-about.jpg
   logo: /images/uploads/marmaladelogo-blue_white.png
   video: fsfs
   video_active: false
+short: |-
+  Marmalade Game Studio is a BAFTA-award winning studio with 20 years’ experience in creating fantastic games.
 about:
   heading: Marmalade Game Studio
   image: /images/uploads/marmaladelogo-blue_white.png
