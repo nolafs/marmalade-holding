@@ -1,7 +1,6 @@
 .sub-card {
   header {
     h2{
-      color: black;
       margin-bottom: 0;
     }
     h4{
@@ -39,7 +38,6 @@
         p{
           font-size: rem-calc(30);
           font-family: $header-font-family;
-          font-weight: bold;
 
           @include breakpoint(small only) {
             font-size: rem-calc(24);

@@ -125,3 +125,28 @@ $monopoly-color: #fb2d35;
 
   margin-bottom: rem-calc(100);
 }
+
+.monopoly{
+  #footer {
+    background: $monopoly-color;
+  }
+
+  .top-bar.sticky.is-stuck{
+    background: $monopoly-color;
+  }
+
+  .top-bar{
+    .menu li{
+      a{
+        &:after{
+          background: $monopoly-color;
+        }
+        &:hover {
+          &:after {
+            background: $monopoly-color;
+          }
+        }
+      }
+    }
+  }
+}

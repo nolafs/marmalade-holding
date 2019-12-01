@@ -1,15 +1,18 @@
 {{ define "header" }}
-    {{ partial "header-hero"  (dict "media" .Params.header "title" .Title "body" .Content)}}
+    {{ range $index, $content := first 1 ( sort (where (where .Pages "Type" "games") ".Params.other" "!=" true) ".Params.weight" "value" "desc")  }}
+        {{with $content}}
+            {{ partial "header-hero"  (dict "media" .Params.header "title" .Title  "buy" .Params.buy  )  }}
+        {{end}}
+    {{end}}
 {{end}}
 {{ define "main" }}
-
 {{ range $index, $content := first 1 ( sort (where (where .Pages.ByDate.Reverse  "Type" "games") ".Params.other" "!=" true) ".Params.weight" "value" "desc")  }}
     {{with $content}}
         {{partial "block-game-link" .}}
     {{end}}
 {{end}}
 {{ with .Site.GetPage "/about"}}
-<div id="home-services" >
+<div id="home-about" >
     <div class="grid-container full about-image " style="background: url('{{.Params.header.image}}')">
         <div class="grid-x align-center-middle text-center">
             <div class="cell">
@@ -19,9 +22,10 @@
     </div>
     <div class="grid-container block">
         <div class="grid-x grid-padding-x grid-margin-y align-center-middle text-center">
-            <div class="cell small-6">
-                <h1>{{.Params.about.heading}}</h1>
-                <p></p>
+            <div class="cell small-12 medium-6">
+                <h1 class="primary">{{.Params.about.heading}}</h1>
+                <p>{{.Params.short}}</p>
+                <a href="{{.Permalink }}" class="button">Get to know us</a>
             </div>
         </div>
     </div>

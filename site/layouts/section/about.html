@@ -1,5 +1,5 @@
 {{ define "header" }}
-    {{ partial "header-hero"  (dict "media" .Params.header "title" .Title "body" .Content)}}
+    {{ partial "header-hero"  (dict "media" .Params.header "title" .Title )}}
 {{end}}
 {{ define "main" }}
     {{ partial "block-image"  (dict "Id" "about" "Content" .Params.About "Class" "b-c-white"  "first" "1" "second" "2" ) . }}
@@ -10,7 +10,7 @@
         <div id="video" class="grid-container full block b-c-secondary">
             <div class="grid-container">
                 <div class="grid-x">
-                    <div class="cell">
+                    <div class="cell small-12 medium-10 medium-offset-1 ">
                         {{partial "youtube" (dict "media" .Params)}}
                     </div>
                 </div>
