@@ -18,7 +18,7 @@ collections:
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Short", name: "short", widget: "string", required: false}
+      - {label: "Short", name: "short", widget: "markdown", required: false}
       - {label: "Class", name: "class", widget: "string"}
       - {label: "Weight", name: "weight", widget: "number"}
       - {label: "Show on other list", name: "other", required: false,  widget: "boolean"}

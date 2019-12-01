@@ -1,6 +1,7 @@
+$monopoly-color: #fb2d35;
 .monopoly-schema {
   &.card {
-    background: #fb2d35;
+    background: $monopoly-color;
   }
 }
 
@@ -76,4 +77,23 @@
     padding-bottom: rem-calc(20);
     margin-bottom: rem-calc(30);
   }
+}
+
+
+.summary-block {
+  padding: rem-calc(80) 0;
+  p{
+    font-family: museo-sans, sans-serif;
+    font-weight: 500;
+    font-size: rem-calc(35);
+    padding: rem-calc(30) rem-calc(0);
+  }
+
+  &.monopoly-schema {
+    .button {
+      background: $monopoly-color;
+    }
+  }
+
+  margin-bottom: rem-calc(100);
 }

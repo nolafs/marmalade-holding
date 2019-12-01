@@ -1,10 +1,13 @@
 {{ $dateFormat := default "Mon Jan 2, 2006" (index .Site.Params "date_format") }}
-<div class="summary-block grid-container full {{ .Params.class}}" style="{background-image:{{.Params.bgImage}}}" >
+<div class="summary-block grid-container full {{ .Params.class}}" style="background: url('{{.Params.bgImage | safeHTML}}')" >
 <div class="grid-container">
   <div class="grid-x align-center-middle text-center">
     <div>
       <header>
-        <h3>{{ .Title }}</h3>
+        <h2>AVAILABLE NOW</h2>
+        <p>
+          {{.Params.short | markdownify }}
+        </p>
       </header>
       <a href='{{ .Permalink }}' class="button">Find out more</a>
     </div>
