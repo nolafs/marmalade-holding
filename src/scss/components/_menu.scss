@@ -8,21 +8,17 @@
       margin: 0;
 
       a{
-        color: $body-font-color;
-        font-family: $header-font-family;
         font-weight: bold;
-        text-transform: capitalize;
+        text-transform: uppercase;
         line-height: rem-calc(20);
         vertical-align: middle;
         transition: 0.5s all ease-in-out;
 
         &:hover {
-          color: $black!important;
           transition: 0.5s all ease-in-out;
         }
 
         &:visited {
-          color: $black !important;
           transition: 0.5s all ease-in-out;
         }
       }
@@ -126,21 +122,41 @@
 
 .off-canvas {
   img{
-    max-width: 60px;
+    width: 30px;
+    max-width: 30px;
     margin: 15px;
   }
   ul{
     margin-top: 20px;
-    border-top: 1px solid #f6f6f6;
     padding-top: 15px;
+    text-align:  center;
 
     li {
-      border-bottom: 1px solid #f6f6f6;
+
     }
+  }
+
+  .off-canvas-header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
   }
 
   .vertical.menu li {
     padding: 15px 30px;
+    a {
+      color: $white;
+      font-size: rem-calc(40);
+
+      &:visited {
+        color: $white;
+      }
+
+      &:hover {
+        color: $secondary-color;
+      }
+    }
   }
 }
 

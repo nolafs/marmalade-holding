@@ -101,7 +101,11 @@
         </div>
         <div class="off-canvas position-right" id="offCanvas" data-off-canvas>
             {{if .Site.Params.logo_large_invert}}
-            <a href="{{ .Site.BaseURL }}" rel="home" class="logo-invert"><img src="{{ .Site.Params.logo_large_invert}}" alt="{{ .Site.Title | safeHTML }}"></a>
+            <div class="off-canvas-header">
+                <a href="{{ .Site.BaseURL }}" rel="home" class="logo-invert"><img src="{{ .Site.Params.logo_large_invert}}" alt="{{ .Site.Title | safeHTML }}"></a>
+                <a href="#"  data-toggle="offCanvas"><img src="/images/menu-close.svg" alt="Open Menu" aria-label="Open Menu"></a>
+            </div>
+
             {{end}}
             <!-- Your menu or Off-canvas content goes here -->
             <ul class="menu vertical">
@@ -156,6 +160,7 @@
                 </li>
                 {{ end }}
             </ul>
+            {{ partial "block-social-page" .}}
         </div>
     </div>
 </header>

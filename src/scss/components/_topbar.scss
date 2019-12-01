@@ -196,7 +196,9 @@
     width: 100%;
   }
   .logo-main > img{
-    max-width: rem-calc(180);
+    width: auto;
+    height: 100%;
+    max-height: rem-calc(40);
   }
 
 }

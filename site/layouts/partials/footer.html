@@ -46,29 +46,14 @@
                 </div>
             </div>
         </div>
-        <div class="grid-container">
-            <div class="grid-x align-center m-t-60">
-                <div class="cell footer-social-media">
-                    <ul class="no-bullet">
-                        {{ $title := .Site.Title}}
-                        {{ range $media := $.Site.Data.socialmedia.links}}
-                        <li class="">
-                            <div class="social-block {{$media.type | urlize}}"><a href="{{$media.url}}"
-                                                                                  aria-label="{{$media.type}} {{ $title }}"><i
-                                    class="icon fab fa-{{$media.id | urlize}}"></i></a></div>
-                        </li>
-                        {{ end }}
-                    </ul>
-                </div>
-            </div>
-        </div>
+       {{ partial "block-social-page" .}}
         <div class="grid-container m-t-60">
             <div class="grid-x registation">
                 <div class="cell small-12" class="small-12">
                     {{$.Site.Data.contact.registration | markdownify}}
                 </div>
                 <div class="cell small-12" class="small-12">
-                    {{$.Site.Data.contact.legal | markdownify}} - 
+                    {{$.Site.Data.contact.legal | markdownify}} -
                     {{ range .Site.Menus.secondary }}
                         <a href="{{.URL}}">
                             {{ .Name }}

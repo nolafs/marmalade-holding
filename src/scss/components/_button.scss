@@ -209,28 +209,33 @@
 // social block icon
 
 .footer-social-media {
-  li {
-    display: inline-block;
-    margin-right: rem-calc(70);
-
-    &:last-child{
-      margin-right: 0;
+  ul {
+    display: flex;
+    max-width: 530px;
+    padding: 0 rem-calc(50);
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    li {
     }
   }
 }
 
 .social-block{
-  display: flex;
-  width: rem-calc(70);
-  height: rem-calc(70);
-  justify-content: center;
-  align-items: center;
+
 
   .icon,.icon-text{
     color: $white;
   }
   .icon{
-    font-size: rem-calc(70);
+
+    @include breakpoint(small only){
+      font-size: 8vw;
+    }
+
+    @include breakpoint(medium){
+      font-size: rem-calc(70);
+    }
   }
   .icon-text{
     font-weight: bold;

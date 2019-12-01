@@ -38,8 +38,12 @@ collections:
           {label: "Alt-Title", name: "alt-title", widget: "string", required: false},
           {label: "Background", name: "bg-image", widget: "image", required: false},
           {label: "Links", name: "links",  widget: "list", fields: [
-              {label: "Title", name: "title", widget: string},
-              {label: "Image", name: "image", widget: "image"},
+              {label: "Type", name: "type", widget: "select", options: [
+                {label: "App Store", value: "apple" },
+                {label: "Google play", value: "google" },
+                {label: "Steam", value: "steam" },
+                {label: "Nintendo Switch", value: "nintendo" },
+              ]},
               {label: "url", name: "url", widget: string}
           ]}
         ]}

@@ -14,10 +14,16 @@
   ul{
     text-align: center;
     text-transform: uppercase;
-    justify-content: center;
+    margin: 0 auto;
     font-family: open-sans, sans-serif;
     a{
       color: $white;
+    }
+  }
+
+  ul{
+    &.menu{
+      justify-content: center;
     }
   }
 }
