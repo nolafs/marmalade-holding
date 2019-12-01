@@ -17,6 +17,28 @@ buy:
   alt-title: Buy
   title: Buy now
   bgImage: /images/uploads/diamond-pattern.jpg
-video: video link
+video: P2FMcObpDX4
+features:
+  - body: Play the game you know and love
+    icon: /images/uploads/m-f-heart.png
+    title: 'Original board game '
+  - body: Completely ad-free and fun for everyone!
+    icon: /images/uploads/m-f-smile.png
+    title: Family Friendly
+  - body: >-
+      The largest number of localised boards any digital Monopoly game has ever
+      offered.
+    icon: /images/uploads/m-f-localised.png
+    title: 'Localised boards '
+  - body: >-
+      Single Player, Pass & Play, Private Online Multiplayer, Open Online
+      Multiplayer.
+    icon: /images/uploads/m-f-dice.png
+    title: FOUR ways of playing
+  - body: >-
+      Classic and Custom Mode which includes Quick Mode as well as house-rule
+      options.
+    icon: /images/uploads/m-f-gamepad.png
+    title: Different game modes
 ---
 
