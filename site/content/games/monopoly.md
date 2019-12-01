@@ -1,12 +1,13 @@
 ---
 title: Monopoly
 class: monopoly-schema
-bg-image: ''
-Overlay Image: /images/uploads/life-the-game-bike.png
+weight: 1
+bg-image: /images/uploads/diamond-pattern.jpg
+overlay_image: /images/uploads/monopoly-icons-pattern.jpg
 header:
   image: /images/uploads/monopoly-hero.jpg
   logo: /images/uploads/monopolylogowhite.png
-  video: adasdada
+  video: ''
   video_active: false
 about:
   body: test this content
