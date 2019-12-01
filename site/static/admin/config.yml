@@ -42,7 +42,7 @@ collections:
                 {label: "App Store", value: "apple" },
                 {label: "Google play", value: "google" },
                 {label: "Steam", value: "steam" },
-                {label: "Nintendo Switch", value: "nintendo" },
+                {label: "Nintendo Switch", value: "nintendo" }
               ]},
               {label: "url", name: "url", widget: string}
           ]}
