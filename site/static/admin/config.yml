@@ -99,22 +99,25 @@ collections:
               {label: "Video", name: "video", widget: string, required: false},
               {label: "Video Banner Active", name: "video_active", widget: "boolean" ,required: false}
             ]}
-          - {label: Title, name: title, widget: string}
-          - {label: "Body", name: "body", widget: "markdown"}
-          - {label: "Values", name: values, widget: object, fields: [
+          - {label: "About", name: "about", widget: object, fields: [
+              {label: "Image", name: "image", widget: "image"},
+              {label: "Heading", name: "heading", widget: string, default: "Our Values"},
+              {label: "Text", name: "text", widget: "text"}
+              ]}
+          - {label: "Values", name: "values", widget: object, fields: [
               {label: "Image", name: "image", widget: "image"},
               {label: "Heading", name: "heading", widget: string, default: "Our Values"},
               {label: "Text", name: "text", widget: "text"}
           ]}
-          - {label: "Other", name: values, widget: object, fields: [
-              {label: Title, name: title, widget: string},
-              {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Others", name: "others", widget: object, fields: [
+              {label: "Heading", name: "heading", widget: string},
+              {label: "Text", name: "text", widget: "markdown"}
             ]}
           - {label: "Video", name: "video", widget: string}
           - {label: "Stats", name: "stats", widget: 'list', fields: [
               {label: "Heading", name: "heading", widget: string},
               {label: "Text", name: "text", widget: "text"},
-              {label: "Icon", name: "icon", widget: "image"}
+              {label: "Icon", name: "icon", widget: "image", required: false}
             ]}
       - file: "site/content/contact/_index.md"
         label: "Contact Page"
