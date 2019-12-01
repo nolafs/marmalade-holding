@@ -106,6 +106,10 @@ collections:
               {label: "Heading", name: "heading", widget: string, default: "Our Values"},
               {label: "Text", name: "text", widget: "text"}
           ]}
+          - {label: "Other", name: values, widget: object, fields: [
+              {label: Title, name: title, widget: string},
+              {label: "Body", name: "body", widget: "markdown"}
+            ]}
           - {label: "Video", name: "video", widget: string}
           - {label: "Stats", name: "stats", widget: 'list', fields: [
               {label: "Heading", name: "heading", widget: string},
