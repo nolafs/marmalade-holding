@@ -25,5 +25,14 @@ others:
   heading: Other Titles
   text: We are immensely proud to have released these other chart-topping titles...
 video: EyNNzmBK-fo
+stats:
+  - heading: 40+
+    text: Marmaladers
+  - heading: '2'
+    text: Studios
+  - heading: 10+
+    text: Nationalities
+  - heading: 5+
+    text: Games
 ---
 
