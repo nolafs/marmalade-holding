@@ -124,6 +124,7 @@ export default {
     },
     finalize() {
         // JavaScript to be fired on all pages, after page specific JS is fired
+        const rellax = new Rellax('.rellax');
         /*
         var configProfile = {
             "profile": {"screenName": 'RenaissancePRUK'},
@@ -136,7 +137,7 @@ export default {
             "lang": 'en'
         };
         twitterFetcher.fetch(configProfile);
-        */
+
 
         $('.slick-slider').slick({
             arrows: false,
@@ -147,11 +148,13 @@ export default {
             autoplaySpeed: 2500,
         });
 
-        const rellax = new Rellax('.rellax');
+         */
+
+
 
         //this.animHeader();
         //this.animList();
         //this.animServices();
-        this.animBlocks();
+        //this.animBlocks();
     },
 };

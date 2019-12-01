@@ -1,15 +1,16 @@
 import animations from "../util/animations"
 import ScrollMagic from 'scrollmagic/scrollmagic/minified/ScrollMagic.min';
-
+import Rellax from 'rellax/rellax.min';
 
 export default {
     init() {
         // JavaScript to be fired on all pages
+        console.log('about')
     },
     finalize() {
-        //const cc = new CC();
+        const rellax = new Rellax('.rellax');
         const controller = new ScrollMagic.Controller();
-        const blocks =[ '#mission', '#values', '#founder','#team','#block-why','#block-contact'];
+        const blocks =[ '#about', '#values', '#stats','#video'];
         animations.animBlock(controller, blocks);
     },
 };
