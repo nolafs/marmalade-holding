@@ -22,7 +22,7 @@ collections:
       - {label: "Class", name: "class", widget: "string"}
       - {label: "Weight", name: "weight", widget: "number"}
       - {label: "Show on other list", name: "other", required: false,  widget: "boolean"}
-      - {label: "Background", name: "bg-image", widget: "image" , required: false}
+      - {label: "Background", name: "bgImage", widget: "image" , required: false}
       - {label: "overlay", name: "overlay_image", widget: "image"}
       - {label: "Hero Header", name: header, widget: object, fields: [
           {label: "Logo", name: "logo", widget: "image", required: true},
@@ -37,7 +37,7 @@ collections:
       - {label: "Buy", name: "buy", widget: object,  required: false, fields: [
           {label: "Title", name: "title", widget: "string" , required: false},
           {label: "Alt-Title", name: "alt-title", widget: "string", required: false},
-          {label: "Background", name: "bg-image", widget: "image", required: false},
+          {label: "Background", name: "bgImage", widget: "image", required: false},
           {label: "Links", name: "links",  widget: "list", fields: [
               {label: "Type", name: "type", widget: "select", options: [
                 {label: "App Store", value: "apple" },

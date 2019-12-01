@@ -2,7 +2,7 @@
 title: Monopoly
 class: monopoly-schema
 weight: 1
-bg-image: /images/uploads/diamond-pattern.jpg
+bgImage: /images/uploads/diamond-pattern.jpg
 overlay_image: /images/uploads/monopoly-icons-pattern.jpg
 header:
   image: /images/uploads/monopoly-hero.jpg
@@ -15,7 +15,7 @@ about:
 buy:
   alt-title: Buy
   title: Buy now
-  bg-image: /images/uploads/diamond-pattern.jpg
+  bgImage: /images/uploads/diamond-pattern.jpg
 video: video link
 ---
 
