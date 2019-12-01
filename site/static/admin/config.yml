@@ -93,11 +93,11 @@ collections:
         fields:
           - {label: "Hero Header", name: header, widget: object, fields: [
               {label: "Image", name: "image", widget: "image"},
-              {label: "Logo", name: "logo", widget: "image"},
-              {label: "title", name: "title", widget: "string"},
-              {label: "Link", name: "link", widget: "string"},
-              {label: "Video", name: "video", widget: string},
-              {label: "Video Banner Active", name: "video_active", widget: "boolean"}
+              {label: "Logo", name: "logo", widget: "image", required: false},
+              {label: "title", name: "title", widget: "string", required: false},
+              {label: "Link", name: "link", widget: "string", required: false},
+              {label: "Video", name: "video", widget: string, required: false},
+              {label: "Video Banner Active", name: "video_active", widget: "boolean" ,required: false}
             ]}
           - {label: Title, name: title, widget: string}
           - {label: "Body", name: "body", widget: "markdown"}
@@ -109,7 +109,8 @@ collections:
           - {label: "Video", name: "video", widget: string}
           - {label: "Stats", name: "stats", widget: 'list', fields: [
               {label: "Heading", name: "heading", widget: string},
-              {label: "Text", name: "text", widget: "text"}
+              {label: "Text", name: "text", widget: "text"},
+              {label: "Icon", name: "icon", widget: "image"}
             ]}
       - file: "site/content/contact/_index.md"
         label: "Contact Page"

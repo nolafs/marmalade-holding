@@ -2,7 +2,7 @@
 header:
   image: /images/uploads/hero-about.jpg
   video: fsfs
-  video_active: true
+  video_active: false
 title: Marmalade Game Studio
 values:
   heading: Our Vales
