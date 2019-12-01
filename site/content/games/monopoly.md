@@ -17,6 +17,11 @@ about:
   title: About the game
 buy:
   alt-title: Buy
+  links:
+    - type: apple
+      url: /test
+    - type: google
+      url: /test
   title: Buy now
   bgImage: /images/uploads/diamond-pattern.jpg
 video: P2FMcObpDX4
