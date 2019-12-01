@@ -36,7 +36,7 @@
     .content{
       &:not(.sub){
         p{
-          font-size: rem-calc(30);
+          font-size: rem-calc(20);
           font-family: $header-font-family;
 
           @include breakpoint(small only) {

@@ -22,7 +22,7 @@ buy:
       url: /test
     - type: google
       url: /test
-  title: Buy now
+  title: Pass Go and
   bgImage: /images/uploads/diamond-pattern.jpg
 video: P2FMcObpDX4
 features:

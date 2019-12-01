@@ -1,0 +1,23 @@
+<div class="summary-block game-buy grid-container full {{ .Params.class}}" style="background: url('{{.Params.bgImage | safeHTML}}')" >
+    <div class="grid-container">
+        <div class="grid-x align-center-middle text-center">
+            <div class="cell small-12 medium-6">
+                <header>
+                    <h2 class="f-c-black">{{.Params.buy.title}}</h2>
+                    <h1 >Download Now!</h1>
+                </header>
+                {{with .Params.buy }}
+                <div class="grid-container m-t-60">
+                    <div class="grid-x grid-padding-x grid-margin-y align-center text-center">
+                        {{ range .links}}
+                        <div class="cell shrink">
+                            <a href="{{.url}}"><img src="/images/img-{{.type}}.png" alt="{{.type}}"></a>
+                        </div>
+                        {{end}}
+                    </div>
+                </div>
+                {{end}}
+            </div>
+        </div>
+    </div>
+</div>

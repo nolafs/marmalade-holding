@@ -99,7 +99,7 @@ $monopoly-color: #fb2d35;
       font-size: rem-calc(45);
     }
 
-    .grid-container {
+     > .grid-container {
       position: relative;
       &:before {
         @include pseudo();
@@ -127,6 +127,23 @@ $monopoly-color: #fb2d35;
 }
 
 .monopoly{
+
+  h1, h2, h3, h4{
+    color: $monopoly-color !important;
+    font-family: josefin-sans, sans-serif !important;
+
+    &.f-c-black{
+      color: black!important;
+    }
+  }
+
+  .game-buy{
+    h2 {
+      font-size: rem-calc(60);
+      margin-bottom: 15px;
+    }
+  }
+
   #footer {
     background: $monopoly-color;
   }
@@ -148,5 +165,17 @@ $monopoly-color: #fb2d35;
         }
       }
     }
+  }
+
+  #video{
+    .video{
+      background: black;
+    }
+  }
+
+  #features{
+      .icon{
+        margin-bottom: rem-calc(30);
+      }
   }
 }
