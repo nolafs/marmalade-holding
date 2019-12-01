@@ -93,6 +93,9 @@ collections:
         fields:
           - {label: "Hero Header", name: header, widget: object, fields: [
               {label: "Image", name: "image", widget: "image"},
+              {label: "Logo", name: "logo", widget: "image"},
+              {label: "title", name: "title", widget: "string"},
+              {label: "Link", name: "link", widget: "string"},
               {label: "Video", name: "video", widget: string},
               {label: "Video Banner Active", name: "video_active", widget: "boolean"}
             ]}
@@ -104,8 +107,8 @@ collections:
               {label: "Text", name: "text", widget: "text"}
           ]}
           - {label: "Video", name: "video", widget: string}
-          - {label: "Stats", name: team, widget: object, fields: [
-              {label: "Heading", name: "heading", widget: string, default: "The Team"},
+          - {label: "Stats", name: team, widget: list, fields: [
+              {label: "Heading", name: "heading", widget: string},
               {label: "Text", name: "text", widget: "text"}
             ]}
       - file: "site/content/contact/_index.md"
