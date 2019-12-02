@@ -14,6 +14,7 @@ header:
   video_active: false
 about:
   heading: About the game
+  image: /images/uploads/monopoly_char_ran.png
   text: >-
     Monopoly, the #1 classic family board game, is coming to the App Store and
     Google Play this winter. Fans of the board game can now experience the
@@ -22,6 +23,7 @@ about:
     it!
 buy:
   alt_title: 'Take a chance, **Play Now**'
+  image: /images/uploads/monopoly_char_presenting.png
   links:
     - type: apple
       url: /test
