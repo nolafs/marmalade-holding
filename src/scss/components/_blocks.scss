@@ -14,6 +14,12 @@
   padding-top: rem-calc(50);
   padding-bottom: rem-calc(50);
 
+  &.header{
+    h1{
+      color: $white;
+    }
+  }
+
   @include breakpoint(large){
     padding-top: rem-calc(100);
     padding-bottom: rem-calc(100);

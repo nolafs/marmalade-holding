@@ -39,5 +39,20 @@
       {{partial "block-screenshots" (dict "media"  .Params.screenshots)}}
   </div>
   {{ "<!-- /Block Screenshots -->" | safeHTML }}
+  {{ "<!-- /Block Partners -->" | safeHTML }}
+  <div id="partners" class="grid-container full block b-c-white" >
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x small-up-3 align-center-middle" >
+        {{range .Params.partners }}
+          <div class="cell">
+            <img src="{{.logo}}" alt=".name">
+          </div>
+        {{end}}
+        <div class="cell">
+        </div>
+      </div>
+    </div>
+  </div>
+  {{ "<!-- /Block Partners -->" | safeHTML }}
 {{ partial "block-game-buy" (dict "content" .Params.buy "col" "2" "class" .Params.class "bgImage" .Params.bgImage ) }}
 {{ end }}
