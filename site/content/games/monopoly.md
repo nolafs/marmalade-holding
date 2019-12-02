@@ -22,8 +22,10 @@ about:
     multiplayer. The game will be ad-free and easy to pick up, everyone can play
     it!
 buy:
-  alt_title: 'Take a chance, **Play Now**'
-  image: /images/uploads/monopoly_char_presenting.png
+  alt_title: |-
+    Take a chance,\
+    **Play Now**
+  image: /images/uploads/monopoly_char.png
   links:
     - type: apple
       url: /test
