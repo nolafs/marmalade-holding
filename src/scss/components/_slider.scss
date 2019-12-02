@@ -6,27 +6,27 @@
   justify-content: center;
 
   li{
-    width: 10%;
+    width: 4%;
     height: 10px;
     font-size: 5px;
-    background-color: $light-gray;
-    color: $light-gray;
+    background-color: $white;
+    color: $white;
     margin-right: 1px;
     margin-left: 1px;
     cursor: pointer;
 
     button {
-      color: $light-gray;
+      color: $white;
     }
 
     &:hover {
-      color: $primary-color;
-      background-color: $primary-color;
+      color: $black;
+      background-color: $black;
     }
 
     &.slick-active {
-      color: $primary-color;
-      background-color: $primary-color;
+      color: $black;
+      background-color: $black;
     }
   }
 
@@ -35,6 +35,12 @@
 
 .slick-slide {
   perspective: 1200px;
+
+  img{
+    margin: 0 auto;
+    border: 10px solid $black;
+  }
+
   .grid-x {
     transform: translateZ(100px);
     transition: 250ms all ease-in-out;

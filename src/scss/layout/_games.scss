@@ -177,6 +177,10 @@ $monopoly-color: #fb2d35;
     }
   }
 
+  #screenshots {
+    background: $monopoly-color;
+  }
+
   #features{
       .icon{
         margin-bottom: rem-calc(30);

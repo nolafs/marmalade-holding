@@ -34,4 +34,10 @@
   </div>
   </section>
   {{ "<!-- /Block Feature -->" | safeHTML }}
+  {{ "<!-- Block Screenhots -->" | safeHTML }}
+  <div id="screenshots" class="grid-container full block b-c-primary" >
+      {{partial "block-screenshots" (dict "media"  .Params.screenshots)}}
+  </div>
+  {{ "<!-- /Block Screenshots -->" | safeHTML }}
+  {{ partial "block-game-buy" .}}
 {{ end }}

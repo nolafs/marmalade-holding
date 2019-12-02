@@ -53,13 +53,13 @@ features:
     icon: /images/uploads/m-f-gamepad.png
     title: Different game modes
 screenshots:
-  - alt-text: Screenshot 1
+  - alt_text: Screenshot 1
     screenshot: /images/uploads/m_s_1.jpg
-  - alt-text: Screenshot 2
+  - alt_text: Screenshot 2
     screenshot: /images/uploads/m_s_2.jpg
-  - alt-text: Screenshot 3
+  - alt_text: Screenshot 3
     screenshot: /images/uploads/m_s_3.jpg
-  - alt-text: Screenshot 4
+  - alt_text: Screenshot 4
     screenshot: /images/uploads/m_s_4.jpg
 ---
 

@@ -138,23 +138,11 @@ export default {
         };
         twitterFetcher.fetch(configProfile);
 
-
-        $('.slick-slider').slick({
-            arrows: false,
-            dots: true,
-            autoplay: true,
-            infinite: true,
-            fade: true,
-            autoplaySpeed: 2500,
-        });
-
-         */
-
-
-
         //this.animHeader();
         //this.animList();
         //this.animServices();
         //this.animBlocks();
+
+         */
     },
 };

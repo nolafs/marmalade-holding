@@ -2,7 +2,8 @@
 <html lang="{{ $.Site.Language.Lang }}">
 
 {{ block "head" . }}{{ partial "head" . }}{{end}}
-<body class="default {{ if .IsHome }}home{{else}}{{.Title | urlize }}{{end}}" data-animation="true">
+{{ $currentPage := .Parent }}
+<body class="default {{ if .IsHome }}home{{else}}{{.Section}}{{end}} {{ if .InSection $currentPage}} {{.Title | urlize }} {{end}}" data-animation="true">
 
 {{ partial "old-browser.html" . }}
 

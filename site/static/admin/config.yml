@@ -58,7 +58,7 @@ collections:
         ]}
       - {label: "Screenshots", name: "screenshots", widget: "list", fields: [
           {label: "Screenshot", name: "screenshot", widget: "image"},
-          {label: "Alt Text", name: "alt-text", widget: string}
+          {label: "Alt Text", name: "alt_text", widget: string}
         ]}
       - {label: "Partners", name: "partners", widget: "list", fields: [
           {label: "Logo", name: "logo", widget: "image"},
