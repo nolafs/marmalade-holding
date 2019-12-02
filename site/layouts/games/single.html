@@ -42,12 +42,17 @@
   {{ "<!-- /Block Partners -->" | safeHTML }}
   <div id="partners" class="grid-container full block b-c-white" >
     <div class="grid-container">
-      <div class="grid-x grid-padding-x small-up-3 align-center-middle" >
-        {{range .Params.partners }}
-          <div class="cell">
+      <div class="grid-x grid-padding-x align-center-middle" >
+
+          <div class="cell small-8">
+            {{range .Params.partners }}
             <img src="{{.logo}}" alt=".name">
+            {{end}}
           </div>
-        {{end}}
+          <div class="cell auto">
+            test
+          </div>
+
         <div class="cell">
         </div>
       </div>
