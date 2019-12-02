@@ -1,11 +1,16 @@
 <div>
   <header>
-    <h2>AVAILABLE NOW</h2>
-    <p>
-      {{.Params.short | markdownify }}
+    {{if isset .Params "image"}}
+    <div class="image-round">
+      <img src="{{.Params.image}}" alt="{{.Title}}">
+    </div>
+    {{end}}
+    <h3> {{.Title}}</h3>
+    <p class="location">
+      {{.Params.location }}
     </p>
   </header>
-  <a href='{{ .Permalink }}' class="button">Find out more!</a>
+  <a href='{{ .Permalink }}' class="button small">View role</a>
 </div>
 </div>
 
