@@ -56,11 +56,11 @@
         }
 
         @include breakpoint(medium) {
-          height: 590px;
+          height: 490px;
         }
 
         @include breakpoint(large) {
-          height: 690px;
+          height: 500px;
         }
       }
     }
@@ -103,11 +103,11 @@
       }
     }
     @include breakpoint(medium) {
-      min-height: 700px;
+      min-height: 600px;
     }
 
     @include breakpoint(large) {
-      min-height: 790px;
+      min-height: 650px;
       .desktop{
         display: block
       }
