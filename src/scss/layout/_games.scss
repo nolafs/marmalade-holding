@@ -129,6 +129,9 @@ $monopoly-color: #fb2d35;
       position: relative;
       .buy-img{
         position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateX(50%) translateY(-50%);
       }
     }
   }
