@@ -28,9 +28,9 @@ buy:
   image: /images/uploads/monopoly_char.png
   links:
     - type: apple
-      url: /test
+      url: 'http://bit.ly/AppStorePre'
     - type: google
-      url: /test
+      url: 'http://bit.ly/GooglePlayPre'
   title: Pass Go and **Download Now**
   bgImage: /images/uploads/diamond-pattern.jpg
 video: P2FMcObpDX4
