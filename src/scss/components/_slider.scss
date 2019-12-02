@@ -19,6 +19,12 @@
       color: $white;
     }
 
+    &.slick-active{
+      button {
+        color: $black;
+      }
+    }
+
     &:hover {
       color: $black;
       background-color: $black;
@@ -29,6 +35,8 @@
       background-color: $black;
     }
   }
+
+
 
 }
 
