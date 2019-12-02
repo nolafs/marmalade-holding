@@ -64,6 +64,20 @@ collections:
           {label: "Logo", name: "logo", widget: "image"},
           {label: "Name", name: "name", widget: string}
         ]}
+  - name: "careers"
+    label: "Careers"
+    label_singular: "Careers"
+    editor:
+      preview: false
+    folder: "site/content/careers"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Location", name: "title", widget: "select" , options: [
+          {label: "London", value: "london" },
+          {label: "Lisbon", value: "lisbon" },
+      ]}
+      -  {label: "Body", name: "body", widget: "markdown"}
   - name: "pages"
     label: "Pages"
     editor:
