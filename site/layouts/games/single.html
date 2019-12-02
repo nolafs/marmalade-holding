@@ -21,12 +21,12 @@
   {{ "<!-- Block Feature -->" | safeHTML }}
   <section>
   <div id="features" class="grid-container m-t-b-100 text-center">
-    <h3>Features</h3>
-    <div class="grid-x grid-padding-x grid-margin-y small-up-1 medium-up-3 align-center-middle text-center">
+    <h2>Features</h2>
+    <div class="grid-x grid-padding-x grid-margin-y small-up-1 medium-up-3 align-center-middle text-center m-t-50">
       {{range .Params.features}}
         <div class="cell">
           <img class="icon" src="{{.icon}}" alt="{{.title}}">
-          <h4>{{.title}}</h4>
+          <h3>{{.title}}</h3>
           <P>{{.body}}</P>
         </div>
       {{end}}
