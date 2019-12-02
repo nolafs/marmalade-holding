@@ -65,5 +65,10 @@ screenshots:
     screenshot: /images/uploads/m_s_3.jpg
   - alt_text: Screenshot 4
     screenshot: /images/uploads/m_s_4.jpg
+partners:
+  - logo: /images/uploads/hasbro-logo.png
+    name: Hasbro
+  - logo: /images/uploads/marmalade-logo.png
+    name: Marmalade
 ---
 
