@@ -1,13 +1,10 @@
 ---
 title: UX Designer
+image: /images/uploads/hands-wide-open-monopoly-150x150.png
 location: london
 header:
   image: /images/uploads/hero-about.jpg
-  link: UX Designer
   logo: /images/uploads/marmaladelogo-blue_white.png
-  title: UX Designer
-  video: UX Designer
-  video_active: false
 ---
 Marmalade Game Studio is looking for a talented  UI Artist to join our close-knit team of superstars and help us to build on the success of Cluedo, Battleship, The Game of Life and Monopoly our most recent hits. 
 
