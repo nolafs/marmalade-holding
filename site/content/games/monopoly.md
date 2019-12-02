@@ -23,7 +23,7 @@ about:
     it!
 buy:
   alt_title: 'Take a chance, **Play Now**'
-  image: /images/uploads/monopoly_char_presenting.png
+  image: /images/uploads/monopoly_char.png
   links:
     - type: apple
       url: /test
