@@ -1,5 +1,6 @@
 ---
-title: london
+title: UX Designer
+location: london
 header:
   image: /images/uploads/hero-about.jpg
   link: UX Designer
