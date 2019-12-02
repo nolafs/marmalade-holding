@@ -13,8 +13,8 @@ header:
   video: ''
   video_active: false
 about:
-  text: "\r\rMonopoly, the #1 classic family board game, is coming to the App Store and Google Play this winter. Fans of the board game can now experience the thrill of bankrupting their friends and family online or in local multiplayer. The game will be ad-free and easy to pick up, everyone can play it!"
-  heading: About the game
+  body: "\r\rMonopoly, the #1 classic family board game, is coming to the App Store and Google Play this winter. Fans of the board game can now experience the thrill of bankrupting their friends and family online or in local multiplayer. The game will be ad-free and easy to pick up, everyone can play it!"
+  title: About the game
 buy:
   alt-title: Buy
   links:
@@ -22,7 +22,7 @@ buy:
       url: /test
     - type: google
       url: /test
-  title: Pass Go and
+  title: Buy now
   bgImage: /images/uploads/diamond-pattern.jpg
 video: P2FMcObpDX4
 features:
@@ -47,5 +47,14 @@ features:
       options.
     icon: /images/uploads/m-f-gamepad.png
     title: Different game modes
+screenshots:
+  - alt-text: Screenshot 1
+    screenshot: /images/uploads/m_s_1.jpg
+  - alt-text: Screenshot 2
+    screenshot: /images/uploads/m_s_2.jpg
+  - alt-text: Screenshot 3
+    screenshot: /images/uploads/m_s_3.jpg
+  - alt-text: Screenshot 4
+    screenshot: /images/uploads/m_s_4.jpg
 ---
 
