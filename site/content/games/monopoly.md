@@ -21,13 +21,14 @@ about:
     multiplayer. The game will be ad-free and easy to pick up, everyone can play
     it!
 buy:
-  title: Buy now
-  bgImage: /images/uploads/diamond-pattern.jpg
+  alt_title: 'Take a chance, Play Now'
   links:
     - type: apple
       url: /test
     - type: google
       url: /test
+  title: Pass Go and Download Now
+  bgImage: /images/uploads/diamond-pattern.jpg
 video: P2FMcObpDX4
 features:
   - body: Play the game you know and love
