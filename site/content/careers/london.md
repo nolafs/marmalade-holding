@@ -16,58 +16,56 @@ This position is full-time and on-site.
 
 ## The role:
 
-Work with the team and other artists to define the look and feel of our user interface
+● Work with the team and other artists to define the look and feel of our user interface
 
-Be responsible for the UI of the game, producing style guides, rule sets, and templates
+● Be responsible for the UI of the game, producing style guides, rule sets, and templates
 
-Create, implement and iterate on UI assets
+● Create, implement and iterate on UI assets
 
-Provide concept sketching, wire-framing and high-fidelity UI mockups/prototypes.
+● Provide concept sketching, wire-framing and high-fidelity UI mockups/prototypes.
 
-Work closely with design, production, and developers to iterate on best solutions to UI challenges
+● Work closely with design, production, and developers to iterate on best solutions to UI challenges
 
-Work with other disciplines on the integration of UI art assets 
+● Work with other disciplines on the integration of UI art assets 
 
 ## The Ideal Candidate:
 
-Experience as a UI Artist in the games industry
+● Experience as a UI Artist in the games industry
 
-Strong graphic design skills showcased by a portfolio that meets the quality of Marmalade Games
+● Strong graphic design skills showcased by a portfolio that meets the quality of Marmalade Games
 
-Ability to explore and create different styles 
+● Ability to explore and create different styles 
 
-Experience creating prototypes and wireframes
+● Experience creating prototypes and wireframes
 
-Excellent understanding of typography, composition, colour theory, visual design and interaction design
+● Excellent understanding of typography, composition, colour theory, visual design and interaction design
 
-Ability to respond efficiently to problems and conflicts that may influence game development
+● Ability to respond efficiently to problems and conflicts that may influence game development
 
-Great communication skills
+● Great communication skills
 
-Knowledge of Photohop, Illustrator and Unity 
+● Knowledge of Photohop, Illustrator and Unity 
 
-Passion for board games (both for professional reasons and because we like to have more players for our lunchtime sessions!).
+● Passion for board games (both for professional reasons and because we like to have more players for our lunchtime sessions!).
 
-Experience implementing and animating UI assets in engine is a plus.
+● Experience implementing and animating UI assets in engine is a plus.
 
 ## The Package:
 
-Competitive salary
+● Competitive salary
 
-Generous holiday allowance
+● Generous holiday allowance
 
-Company pension scheme
+● Company pension scheme
 
-Health insurance package
+● Health insurance package
 
-Share options scheme
-
-
+● Share options scheme
 
 Are you our next superstar? Join us on the Marmalade adventure! 
 
-Does this sound like the job for you?
+## Does this sound like the job for you?
 
-Then please send your CV, covering letter  and portfolio to jobs@marmalademail.com
+Then please send your CV, covering letter  and portfolio to <mailto:jobs@marmalademail.com>
 
 If you are selected for an interview you will normally be contacted within two weeks of the closing date. If you do not hear from us within this period then you should assume that, unfortunately, on this occasion you have been unsuccessful.
