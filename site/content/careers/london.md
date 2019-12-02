@@ -1,5 +1,5 @@
 ---
-title: london
+title: UI Designer
 ---
 Marmalade Game Studio is looking for a talented  UI Artist to join our close-knit team of superstars and help us to build on the success of Cluedo, Battleship, The Game of Life and Monopoly our most recent hits. 
 

@@ -73,6 +73,7 @@ collections:
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Image", name: "image", widget: "image"}
       - {label: "Location", name: "location", widget: "select" , options: [
           {label: "London", value: "london" },
           {label: "Lisbon", value: "lisbon" },
@@ -80,11 +81,7 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Hero Header", name: header, widget: object, fields: [
           {label: "Image", name: "image", widget: "image"},
-          {label: "Logo", name: "logo", widget: "image"},
-          {label: "title", name: "title", widget: "string"},
-          {label: "Link", name: "link", widget: "string"},
-          {label: "Video", name: "video", widget: string},
-          {label: "Video Banner Active", name: "video_active", widget: "boolean"}
+          {label: "Logo", name: "logo", widget: "image"}
       ]}
   - name: "pages"
     label: "Pages"
