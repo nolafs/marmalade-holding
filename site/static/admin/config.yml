@@ -73,7 +73,7 @@ collections:
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Location", name: "title", widget: "select" , options: [
+      - {label: "Location", name: "location", widget: "select" , options: [
           {label: "London", value: "london" },
           {label: "Lisbon", value: "lisbon" },
       ]}
