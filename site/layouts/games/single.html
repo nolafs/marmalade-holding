@@ -4,7 +4,7 @@
 
 {{ define "main" }} {{ $section := .Site.GetPage "section" .Section }}
   {{ partial "block-game-buy" .}}
-  {{ partial "block-image"  (dict "Id" "about" "Content" .Params.About "Class" "b-c-white" "first" "1" "second" "2") . }}
+  {{ partial "block-image"  (dict "Id" "about" "Content" .Params.about "Class" "b-c-white" "first" "1" "second" "2") . }}
   {{ "<!-- Block Video -->" | safeHTML }}
   <section>
     <div id="video" class="grid-container full block" style="background: url('{{.Params.overlay_image}}')">
