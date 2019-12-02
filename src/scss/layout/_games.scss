@@ -212,8 +212,7 @@ $monopoly-color: #fb2d35;
       width: 100%;
       img{
         position: absolute;
-        top:50%;
-        transform: translateY(-60%);
+        bottom: -100px;
       }
     }
   }
