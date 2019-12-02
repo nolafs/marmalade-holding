@@ -1,5 +1,5 @@
 ---
-title: QA Game Tester – Lisbon Studio
+title: QA Game Tester
 image: /images/uploads/widescreensherlock-heroshot-v02-200x200.jpg
 location: lisbon
 header:

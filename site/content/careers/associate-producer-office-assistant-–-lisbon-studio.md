@@ -1,5 +1,5 @@
 ---
-title: Associate Producer / Office Assistant – Lisbon Studio
+title: Associate Producer / Office Assistant
 image: /images/uploads/battleship_napoleon-150x150.png
 location: lisbon
 header:
