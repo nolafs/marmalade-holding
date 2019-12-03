@@ -29,6 +29,14 @@
   }
 }
 
+#about{
+  .image-wrapper{
+    @include breakpoint(small only) {
+      display:none;
+    }
+  }
+}
+
 #stats {
   position: relative;
   z-index: 10;
@@ -45,4 +53,10 @@
         margin-bottom: 0;
       }
     }
+}
+
+.hero-header-logo{
+  @include breakpoint(medium) {
+    display:none;
+  }
 }
