@@ -54,4 +54,21 @@
   }
 }
 
+#home-about{
+  .about-image {
+    position: relative;
+
+    &:after {
+      @include pseudo();
+      background: url("/images/monopoly-car.png") no-repeat center center;
+      background-size: contain;
+      max-width: 490px;
+      width: 50vw;
+      height: 50vh;
+      left: -100px;
+      bottom: -200px;
+    }
+  }
+}
+
 
