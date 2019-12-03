@@ -20,7 +20,10 @@ h1{
 }
 
 p{
-  text-align: justify; text-align-last: center;
+  text-align: justify;
+  @include breakpoint(small only) {
+    text-align-last: center;
+  }
   strong{
     font-weight: 700;
     color: $primary-color;
