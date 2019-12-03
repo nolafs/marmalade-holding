@@ -16,7 +16,9 @@
   }
 
   .buy {
-    background: white;
+    //background: white;
+    position: relative;
+    z-index: 10;
   }
 }
 
