@@ -1,6 +1,6 @@
 import $ from 'jquery'
-import ScrollMagic from "scrollmagic/scrollmagic/minified/ScrollMagic.min";
-import animations from "../util/animations";
+// import ScrollMagic from "scrollmagic/scrollmagic/minified/ScrollMagic.min";
+// import animations from "../util/animations";
 import Rellax from "rellax/rellax.min";
 import 'slick-carousel';
 
@@ -10,7 +10,7 @@ const newsletter = () => {
     $('#sending').hide();
     $('#error').hide();
 
-    $("#newsletter").validate({
+    $("#newsletter-form").validate({
         rules : {
             email: {
                 required: true,
@@ -22,7 +22,9 @@ const newsletter = () => {
         },
         submitHandler: function (form) {
 
-            $('#form').fadeOut(500, () => $('#sending').fadeIn(500, ()=>{
+            console.log('FORM', $(form).serialize())
+
+            $('#newsletter-form-wrapper').fadeOut(500, () => $('#sending').fadeIn(500, ()=>{
 
                 $.post($(form).attr("action"), $(form).serialize()).then(function(response) {
                     $('#sending').fadeOut(500, () => $('#thanks').fadeIn(500))
@@ -37,7 +39,7 @@ const newsletter = () => {
     $('.continue').on('click' , () => {
 
         if(!error) {
-            $("#newsletter").reset();
+            $("#newsletter-form").reset();
             $('#thanks').fadeOut(500, () => $('#form').fadeIn(500))
         } else {
             $('#error').fadeOut(500, () => $('#form').fadeIn(500))
