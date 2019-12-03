@@ -21,7 +21,10 @@
   }
 
   @include breakpoint(small only) {
-    margin-bottom:70px;
+    .image-area{
+      display: none;
+    }
+    margin-bottom:0px;
   }
 
   @include breakpoint(medium only) {
@@ -50,9 +53,10 @@
     position: relative;
     .crab-wrapper{
       position: absolute;
+      width: 60%;
       top: 0;
       .crab-image{
-        transform: translateX(-25%) translateY(-40%);
+        transform: translateX(-15%) translateY(-40%);
       }
     }
 
