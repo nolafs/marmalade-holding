@@ -4,7 +4,7 @@ short: 'MONOPOLY, the popular family board game, comes to life on your mobile!'
 class: monopoly-schema
 weight: 1
 bgImage: /images/uploads/diamond-pattern.jpg
-overlay_image: /images/uploads/monopoly-icons-pattern.jpg
+overlay_image: /images/uploads/screenshot-2019-12-03-at-10.26.49.png
 header:
   image: /images/uploads/monopoly-hero.jpg
   logo: /images/uploads/monopolylogowhite.png
