@@ -1,9 +1,29 @@
 #careers {
+  @include breakpoint(medium) {
+    margin-top: 150px;
+    margin-bottom: 150px;
+  }
   .summary {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+    overflow: visible;
+
+    .summary-content{
+      display: flex;
+      justify-content: center;
+      height: 100%;
+    }
+
     h4{
       margin-bottom: 0;
       margin-top: rem-calc(20);
       line-height: rem-calc(32)
+    }
+    p{
+      text-align: center;
     }
     .location {
       text-transform: capitalize;
@@ -14,6 +34,7 @@
       height: 100%;
       margin: 0 auto;
       max-width: 150px;
+      max-height: 150px;
       border: 5px solid $primary-color;
 
       img {
