@@ -57,13 +57,13 @@ features:
     title: Different game modes
 screenshots:
   - alt_text: Screenshot 1
-    screenshot: /images/uploads/screenshot-1-tokens-on-go.png
+    screenshot: /images/uploads/screenshot-1-tokens-on-go.jpg
   - alt_text: Screenshot 2
-    screenshot: /images/uploads/m_s_2.jpg
+    screenshot: /images/uploads/screenshot-2-full-board-overview.jpg
   - alt_text: Screenshot 3
-    screenshot: /images/uploads/m_s_3.jpg
+    screenshot: /images/uploads/screenshot-3-buying-property.jpg
   - alt_text: Screenshot 4
-    screenshot: /images/uploads/m_s_4.jpg
+    screenshot: /images/uploads/screenshot-4-youre-going-to-jail.jpg
 partners:
   - logo: /images/uploads/hasbro-logo.png
     name: Hasbro
