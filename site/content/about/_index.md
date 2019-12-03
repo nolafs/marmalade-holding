@@ -26,8 +26,8 @@ values:
     within. If you prove to be a good match, we’ll do everything to help you
     achieve your full potential.
 others:
-  heading: Other Titles
-  text: We are immensely proud to have released these other chart-topping titles...
+  heading: Our Games
+  text: We are immensely proud to have released these chart-topping titles...
 video: EyNNzmBK-fo
 stats:
   - heading: 40+
