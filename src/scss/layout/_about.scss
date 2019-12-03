@@ -47,9 +47,20 @@
 
 .about {
   #video {
+    position: relative;
+    .crab-wrapper{
+      position: absolute;
+      top: 0;
+      .crab-image{
+        transform: translateX(-25%) translateY(-40%);
+      }
+    }
+
     .video {
       padding: rem-calc(10);
       background: $primary-color;
+      position: relative;
+      z-index: 10;
 
       .responsive-embed.widescreen {
         margin-bottom: 0;
