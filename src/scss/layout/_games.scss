@@ -287,6 +287,10 @@
   #video{
     .video{
       background: black;
+      padding: rem-calc(10);
+      > div{
+        margin-bottom: 0;
+      }
     }
   }
 
