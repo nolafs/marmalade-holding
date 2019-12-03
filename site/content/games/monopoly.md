@@ -32,7 +32,7 @@ buy:
       url: 'http://bit.ly/GooglePlayPre'
   title: Pass Go and **Download Now**
   bgImage: /images/uploads/diamond-pattern.jpg
-video: P2FMcObpDX4
+video: 7d25kj0gGy4
 features:
   - body: Play the game you know and love
     icon: /images/uploads/heart-ico.svg
