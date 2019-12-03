@@ -16,14 +16,15 @@ about:
   heading: About the game
   image: /images/uploads/monopoly_char_ran.png
   text: >-
-    Monopoly, the #1 classic family board game, is coming to the App Store and
-    Google Play this winter. Fans of the board game can now experience the
-    thrill of bankrupting their friends and family online or in local
-    multiplayer. The game will be ad-free and easy to pick up, everyone can play
-    it!
+    MONOPOLY, the classic family game, comes to life on your mobile and tablets!
+    Buy, sell, and scheme your way to riches and bankrupt your friends and
+    family online or offline. Build your property empire without distractions -
+    no ads and no worrying about who’s going to play banker. Play now and
+    immerse yourself in a living and breathing city to experience Monopoly like
+    never before.
 buy:
   alt_title: |-
-    Take a chance,\
+    Own it all,\
     **Play Now**
   image: /images/uploads/monopoly_char.png
   links:
@@ -58,13 +59,13 @@ features:
     title: Different game modes
 screenshots:
   - alt_text: Screenshot 1
-    screenshot: /images/uploads/m_s_1.jpg
+    screenshot: /images/uploads/screenshot-1-tokens-on-go.png
   - alt_text: Screenshot 2
-    screenshot: /images/uploads/m_s_2.jpg
+    screenshot: /images/uploads/screenshot-2-full-board-overview.png
   - alt_text: Screenshot 3
-    screenshot: /images/uploads/m_s_3.jpg
+    screenshot: /images/uploads/screenshot-3-buying-property.png
   - alt_text: Screenshot 4
-    screenshot: /images/uploads/m_s_4.jpg
+    screenshot: /images/uploads/screenshot-4-youre-going-to-jail.png
 partners:
   - logo: /images/uploads/hasbro-logo.png
     name: Hasbro
