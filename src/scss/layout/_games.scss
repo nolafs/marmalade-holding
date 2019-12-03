@@ -75,19 +75,13 @@
         transform: translateX(-9%) translateY(-12%);
       }
     }
-
-
-    .card-content {
-      background: #2e3691;
-
-    }
   }
 }
 
 .battleship-schema {
   &.card {
 
-    .card-section {
+    .card-content {
       background: #2e3691;
     }
 
@@ -101,8 +95,8 @@
 
 .card.game{
   .card-section{
-    padding-bottom: rem-calc(20);
-    margin-bottom: rem-calc(30);
+    //padding-bottom: rem-calc(20);
+   // margin-bottom: rem-calc(30);
   }
 }
 
