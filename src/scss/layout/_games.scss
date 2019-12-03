@@ -5,6 +5,19 @@
       padding-left: 0;
     }
   }
+
+  .card-section {
+    padding: 0;
+  }
+
+  .card-content{
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .buy {
+    background: white;
+  }
 }
 
 .monopoly-schema {
@@ -22,7 +35,7 @@
 .life-vacation-schema {
   &.card {
 
-    .card-section {
+    .card-content {
       background: #e71e8c;
     }
 
@@ -37,7 +50,7 @@
 
 .life-the-game-schema {
   &.card {
-    .card-section {
+    .card-content {
       background: #9fcc2a;
     }
 
@@ -52,7 +65,7 @@
 
 .cluedo-schema {
   &.card {
-    .card-section {
+    .card-content {
       background: #28abdd;
     }
 
@@ -64,7 +77,7 @@
     }
 
 
-    .card-video {
+    .card-content {
       background: #2e3691;
 
     }
