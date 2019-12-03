@@ -80,5 +80,13 @@
     }
   }
 
+  .feature-game {
+    .hero-header-logo{
+      @include breakpoint(medium) {
+        display:block;
+      }
+    }
+  }
+
 }
 

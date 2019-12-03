@@ -46,5 +46,19 @@
     {{ "<!-- Block Stats -->" | safeHTML }}
 
 {{ partial "block-image"  (dict "Id" "others" "Content" .Params.Others "Class" "b-c-white"  "first" "2" "second" "1") . }}
+<section>
+    <div class="feature-game">
+    {{ range $index, $content := first 1 ( sort (where (where .Parent.Pages "Type" "games") ".Params.other" "!=" true) ".Params.weight" "value" "desc")  }}
+    {{with $content}}
+        {{ partial "header-hero"  (dict "media" .Params.header "title" .Title  "buy" .Params.buy "parallax"  false )  }}
+    {{end}}
+    {{end}}
+    {{ range $index, $content := first 1 ( sort (where (where .Parent.Pages.ByDate.Reverse  "Type" "games") ".Params.other" "!=" true) ".Params.weight" "value" "desc")  }}
+        {{with $content}}
+            {{partial "block-game-link" .}}
+        {{end}}
+    {{end}}
+    </div>
+</section>
 {{ partial "block-games" .Parent}}
 {{ end }}
