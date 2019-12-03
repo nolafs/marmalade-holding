@@ -35,25 +35,25 @@ buy:
 video: P2FMcObpDX4
 features:
   - body: Play the game you know and love
-    icon: /images/uploads/heart-icon-01.svg
+    icon: /images/uploads/heart-ico.svg
     title: 'Original board game '
   - body: Completely ad-free and fun for everyone!
-    icon: /images/uploads/family-icon.svg
+    icon: /images/uploads/family-ico.svg
     title: Family Friendly
   - body: >-
       The largest number of localised boards any digital Monopoly game has ever
       offered.
-    icon: /images/uploads/local-icon.svg
+    icon: /images/uploads/local-ico.svg
     title: 'Localised boards '
   - body: >-
       Single Player, Pass & Play, Private Online Multiplayer, Open Online
       Multiplayer.
-    icon: /images/uploads/dice-icon.svg
+    icon: /images/uploads/dice-ico.svg
     title: FOUR ways of playing
   - body: >-
       Classic and Custom Mode which includes Quick Mode as well as house-rule
       options.
-    icon: /images/uploads/controller-icon.svg
+    icon: /images/uploads/controller-ico.svg
     title: Different game modes
 screenshots:
   - alt_text: Screenshot 1
