@@ -72,7 +72,7 @@
     }
 
     .card-video{
-      background: #2e3691;
+      background: #e71e8c;
     }
 
     .card-image-overlay {
@@ -329,6 +329,11 @@
 
   .top-bar{
     .menu li{
+      &.active {
+        a{
+          color: white;
+        }
+      }
       a{
         &:after{
           background: $monopoly-color !important;

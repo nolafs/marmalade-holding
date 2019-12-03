@@ -44,3 +44,11 @@
     }
   }
 }
+
+.careers{
+  p{
+    @include breakpoint(small only) {
+      text-align-last: left;
+    }
+  }
+}
