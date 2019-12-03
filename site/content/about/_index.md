@@ -5,12 +5,12 @@ short: >-
   experience in creating fantastic games.
 header:
   image: /images/uploads/hero-about.jpg
-  logo: /images/uploads/marmaladelogo-blue.svg
+  logo: ''
   video: fsfs
   video_active: false
 about:
   heading: Marmalade Game Studio
-  image: /images/uploads/marmaladelogo-blue_white.png
+  image: /images/uploads/marmaladelogo-blue.svg
   text: >-
     At Marmalade Game Studio, we have been creating fantastic interactive
     experiences and innovative digital board games for more than 20 years. Our
