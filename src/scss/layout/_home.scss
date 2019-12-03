@@ -16,6 +16,42 @@
       padding: rem-calc(30) 0;
     }
   }
+
+  #footer {
+    background: $monopoly-color;
+  }
+
+  .top-bar.sticky.is-stuck{
+    background: $monopoly-color;
+  }
+
+  .title-bar{
+    background: $monopoly-color;
+  }
+
+  .top-bar{
+    .menu li{
+      a{
+        &:after{
+          background: $monopoly-color;
+        }
+        &:hover {
+          &:after {
+            background: $monopoly-color;
+          }
+        }
+      }
+    }
+  }
+
+  .summary-block.monopoly-schema {
+    background: none!important;
+    .grid-container {
+      &:after {
+        display: none!important;
+      }
+    }
+  }
 }
 
 

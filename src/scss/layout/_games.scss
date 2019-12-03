@@ -1,8 +1,12 @@
 
-$monopoly-color: #fb2d35;
+
 .monopoly-schema {
   &.card {
     background: $monopoly-color;
+  }
+  .button {
+    font-family: josefin-sans, sans-serif;
+    @include background-gradient($monopoly-color, darken($monopoly-color,20), 'vertical');
   }
 
 
