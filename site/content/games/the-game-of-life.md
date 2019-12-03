@@ -15,9 +15,6 @@ buy:
       url: 'https://play.google.com/store/apps/details?id=com.marmalade.golmobile'
     - type: steam
       url: 'http://store.steampowered.com/app/403120/'
-    - type: nintendo
-      url: >-
-        https://www.microsoft.com/en-us/store/p/the-game-of-life-the-official-2016-edition/9wzdncrcsh7w
 video: fYjjVMap_0s
 ---
 
