@@ -108,23 +108,38 @@
 
         &:before {
           @include pseudo();
-          width: 200px;
-          height: 200px;
+          width: 55%;
+          height: 30%;
           background: url("/images/summary-dice.png") no-repeat center center;
           background-size: contain;
           top: -150px;
-          right: 0;
+          right: -20%;
           z-index: 100;
+
+          @include breakpoint(small only){
+            top: -100px;
+          }
+
+          @include breakpoint(large){
+            height: 55%;
+          }
         }
 
         &:after {
           @include pseudo();
-          width: 200px;
-          height: 200px;
+          width: 55%;
+          height: 30%;
           background: url("/images/summary-house.png") no-repeat center center;
           background-size: contain;
           bottom: -150px;
+          left: -20%;
           z-index: 100;
+          @include breakpoint(small only){
+            bottom: -100px;
+          }
+          @include breakpoint(large){
+            height: 55%;
+          }
         }
       }
     }
@@ -157,6 +172,10 @@
   .button {
     font-family: josefin-sans, sans-serif;
     @include background-gradient($monopoly-color, darken($monopoly-color,20), 'vertical');
+  }
+
+  .summary-block{
+    margin-bottom: 0;
   }
 
 
@@ -206,6 +225,7 @@
         z-index: 10;
         bottom: -417px;
         left: -200px;
+
       }
     }
   }
@@ -216,7 +236,12 @@
       width: 100%;
       img{
         position: absolute;
-        bottom: -100px;
+        min-width: 180px;
+        bottom: -90px;
+        @include breakpoint(small only){
+          right: 0%;
+          width: 200px;
+        }
       }
     }
   }
@@ -225,9 +250,21 @@
     h2 {
       font-size: rem-calc(65);
       margin-bottom: 15px;
+      @include breakpoint(small only){
+        font-size: rem-calc(33);
+      }
       strong{
         color: $monopoly-color;
         font-size: rem-calc(80);
+        @include breakpoint(small only){
+          font-size: rem-calc(40);
+        }
+      }
+    }
+
+    .buy-img{
+      @include breakpoint(small only){
+        display: none;
       }
     }
   }
