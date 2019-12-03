@@ -45,14 +45,17 @@
   }
 }
 
-#video{
-    .video{
+.about {
+  #video {
+    .video {
       padding: rem-calc(10);
       background: $primary-color;
-      .responsive-embed.widescreen{
+
+      .responsive-embed.widescreen {
         margin-bottom: 0;
       }
     }
+  }
 }
 
 .hero-header-logo{
