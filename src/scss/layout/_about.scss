@@ -56,10 +56,11 @@
       }
     }
   }
+  .hero-header-logo{
+    @include breakpoint(medium) {
+      display:none;
+    }
+  }
+
 }
 
-.hero-header-logo{
-  @include breakpoint(medium) {
-    display:none;
-  }
-}
