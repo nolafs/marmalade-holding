@@ -5,7 +5,7 @@ short: >-
   experience in creating fantastic games.
 header:
   image: /images/uploads/hero-about.jpg
-  logo: /images/uploads/marmaladelogo-blue_white.png
+  logo: /images/uploads/marmaladelogo-blue.svg
   video: fsfs
   video_active: false
 about:
