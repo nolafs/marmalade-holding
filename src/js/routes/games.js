@@ -37,7 +37,7 @@ const newsletter = () => {
     $('.continue').on('click' , () => {
 
         if(!error) {
-            $("#contact").reset();
+            $("#newsletter").reset();
             $('#thanks').fadeOut(500, () => $('#form').fadeIn(500))
         } else {
             $('#error').fadeOut(500, () => $('#form').fadeIn(500))

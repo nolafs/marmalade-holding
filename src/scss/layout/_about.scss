@@ -20,14 +20,17 @@
       bottom: -30px;
   }
 
-  @include breakpoint(small only) {
+  @include breakpoint(small) {
     .image-area{
       display: none;
     }
     margin-bottom:0px;
   }
 
-  @include breakpoint(medium only) {
+  @include breakpoint(large) {
+    .image-area{
+      display: block;
+    }
     margin-bottom:70px;
   }
 }
