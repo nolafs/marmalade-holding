@@ -59,11 +59,11 @@ screenshots:
   - alt_text: Screenshot 1
     screenshot: /images/uploads/screenshot-1-tokens-on-go.png
   - alt_text: Screenshot 2
-    screenshot: /images/uploads/screenshot-2-full-board-overview.png
+    screenshot: /images/uploads/m_s_2.jpg
   - alt_text: Screenshot 3
-    screenshot: /images/uploads/screenshot-3-buying-property.png
+    screenshot: /images/uploads/m_s_3.jpg
   - alt_text: Screenshot 4
-    screenshot: /images/uploads/screenshot-4-youre-going-to-jail.png
+    screenshot: /images/uploads/m_s_4.jpg
 partners:
   - logo: /images/uploads/hasbro-logo.png
     name: Hasbro
