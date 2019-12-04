@@ -179,15 +179,15 @@ collections:
               - {label: Name, name: name, widget: string}
               - {label: Link, name: link, widget: string}
       - label: "Press Kits"
-          name: "presskits"
-          file: "site/data/presskits.yaml"
-          fields:
-            - label: "Press kit"
-              name: "kit"
-              widget: "list"
-              fields:
-                - {label: Name, name: name, widget: string}
-                - {label: Link, name: link, widget: string}
+        name: "presskits"
+        file: "site/data/presskits.yaml"
+        fields:
+          - label: "Press kit"
+            name: "kit"
+            widget: "list"
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: Link, name: link, widget: string}
       - label: "GDPR"
         name: "gdpr"
         file: "site/data/gdpr.yaml"
