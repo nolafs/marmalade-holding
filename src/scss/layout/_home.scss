@@ -63,10 +63,12 @@
       background: url("/images/monopoly-car.png") no-repeat center center;
       background-size: contain;
       max-width: 490px;
+      max-height: 390px;
       width: 30vw;
       height: 50vh;
-      left: -100px;
-      bottom: -200px;
+      left: 0;
+      bottom: 0;
+      transform: translateX(-30%) translateY(50%);
 
       @include breakpoint(medium only){
         max-width: 300px;
