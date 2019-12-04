@@ -2,9 +2,9 @@
 # These rules will change if you change your site’s custom domains or HTTPS settings
 
 # Redirect domain aliases to primary domain
-http://www.marmaladegamestudio.co.uk/* http://www.marmaladegamestudio.com/:splat 301!
+https://www.marmaladegamestudio.co.uk/* https://www.marmaladegamestudio.com/:splat 301!
 
 # Optional: Redirect default Netlify subdomain to primary domain
-http://determined-leakey-316eb1.netlify.com/* http://www.marmaladegamestudio.com/:splat 301!
+https://determined-leakey-316eb1.netlify.com/* https://www.marmaladegamestudio.com/:splat 301!
 
 
