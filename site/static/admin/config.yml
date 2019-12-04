@@ -187,7 +187,7 @@ collections:
             widget: "list"
             fields:
               - {label: Name, name: name, widget: string}
-              - {label: Link, name: link, widget: string}
+              - {label: File, name: file, widget: file}
       - label: "GDPR"
         name: "gdpr"
         file: "site/data/gdpr.yaml"
