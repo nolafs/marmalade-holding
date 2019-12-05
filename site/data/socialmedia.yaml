@@ -8,6 +8,6 @@ links:
   - id: instagram
     type: Instagram
     url: instagram.com/marmaladegames/
-  - id: 'https://www.youtube.com/channel/UCumvfXfBRw_KhfKgAREpgnw'
+  - id: youtube-square
     type: YouTube
-    url: 'http://test'
+    url: 'https://www.youtube.com/channel/UCumvfXfBRw_KhfKgAREpgnw'
