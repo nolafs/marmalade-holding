@@ -7,7 +7,7 @@ links:
     url: 'https://twitter.com/marmaladegames'
   - id: instagram
     type: Instagram
-    url: 'http://test'
-  - id: youtube-square
+    url: instagram.com/marmaladegames/
+  - id: 'https://www.youtube.com/channel/UCumvfXfBRw_KhfKgAREpgnw'
     type: YouTube
     url: 'http://test'
