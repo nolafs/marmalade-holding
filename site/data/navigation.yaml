@@ -7,3 +7,5 @@ items:
     name: About
   - link: /careers
     name: Careers
+  - link: /contact
+    name: Contact
