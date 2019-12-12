@@ -58,7 +58,7 @@ This position is full-time and on-site in our Lisbon office.
 
 ● Share options scheme
 
-● 2 month contract
+● 12 month contract
 
 ## Does this sound like the job for you?
 
