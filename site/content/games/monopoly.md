@@ -11,7 +11,7 @@ header:
   video: ''
   video_active: false
 about:
-  heading: About the game
+  heading: 'About the game '
   image: /images/uploads/monopoly_char_ran.png
   text: >-
     MONOPOLY, the classic family game, comes to life on your mobile and tablets!
