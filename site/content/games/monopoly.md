@@ -6,7 +6,7 @@ weight: 1
 bgImage: /images/uploads/diamond-pattern.jpg
 overlay_image: /images/uploads/screenshot-2019-12-03-at-10.26.49.png
 header:
-  image: /images/uploads/monopoly-hero.jpg
+  image: /images/uploads/monopoly-hero-1.jpg
   logo: /images/uploads/monopolylogowhite.png
   video: ''
   video_active: false
