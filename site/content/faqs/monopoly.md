@@ -33,5 +33,20 @@ faq:
 
       We can then use this information to resolve the problem.
     question: 'I bought an in-app purchase (IAP), but my content is still locked'
+  - answer: >-
+      Our refund policy is that on Google Play we will consider a refund if the
+      request is made within 48 hours of the initial purchase. Please email us
+      with the reason for the refund request, and proof of purchase (including
+      the GPA number).
+
+
+      For Apple, Steam or Nintendo Switch purchases, we cannot process refunds.
+      Please contact the relevant platform holder.
+    question: I want a refund
+  - answer: >-
+      We’re very sorry that you are experiencing problems with our game. Please
+      try fully powering off your device, and restarting, to see if this
+      resolves the problem. If not, please try
+    question: The game doesn’t start
 ---
 
