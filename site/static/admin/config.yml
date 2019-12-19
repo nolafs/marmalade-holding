@@ -83,6 +83,23 @@ collections:
           {label: "Image", name: "image", widget: "image"},
           {label: "Logo", name: "logo", widget: "image"}
       ]}
+  - name: "faq"
+      label: "FAQs"
+      label_singular: "FAQ"
+      editor:
+        preview: false
+      folder: "site/content/faqs"
+      create: true
+      fields:
+        - {label: "Title", name: "title", widget: "string"}
+        - {label: "Hero Header", name: header, widget: object, fields: [
+            {label: "Image", name: "image", widget: "image"},
+            {label: "Logo", name: "logo", widget: "image"}
+        ]}
+        - {label: "faq", name: "faq", widget: "list", fields: [
+            {label: "Question", name: "question", widget: string},
+            {label: "Answer", name: "answer", widget: markdown}
+        ]}
   - name: "pages"
     label: "Pages"
     editor:
