@@ -59,7 +59,7 @@ screenshots:
   - alt_text: Screenshot 1
     screenshot: /images/uploads/screenshot-1-tokens-on-go.jpg
   - alt_text: Screenshot 2
-    screenshot: /images/uploads/screenshot-2-full-board-overview.jpg
+    screenshot: /images/uploads/screenshot-2-full-board-overview_1.jpg
   - alt_text: Screenshot 3
     screenshot: /images/uploads/screenshot-3-buying-property.jpg
   - alt_text: Screenshot 4
