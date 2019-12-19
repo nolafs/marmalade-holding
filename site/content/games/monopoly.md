@@ -4,7 +4,7 @@ short: 'MONOPOLY, the popular family board game, comes to life on your mobile!'
 class: monopoly-schema
 weight: 1
 bgImage: /images/uploads/diamond-pattern.jpg
-overlay_image: /images/uploads/screenshot-2019-12-03-at-10.26.49.png
+overlay_image: /images/uploads/screenshot-2019-12-03-at-10.26.49.jpg
 header:
   image: /images/uploads/monopoly-hero-1.jpg
   logo: /images/uploads/monopolylogowhite.png
@@ -24,7 +24,7 @@ buy:
   alt_title: |-
     Own it all,\
     **Play Now**
-  image: /images/uploads/monopoly_char.png
+  image: /images/uploads/monopoly_char_1.png
   links:
     - type: apple
       url: 'http://bit.ly/AppStorePre'
