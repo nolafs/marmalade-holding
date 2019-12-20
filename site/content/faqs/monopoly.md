@@ -1,6 +1,5 @@
 ---
 title: Monopoly
-game: Monopoly
 image: /images/uploads/monopoly-hero-1.jpg
 icon: /images/uploads/monopoly_icon.png
 faq:
@@ -46,7 +45,33 @@ faq:
   - answer: >-
       We’re very sorry that you are experiencing problems with our game. Please
       try fully powering off your device, and restarting, to see if this
-      resolves the problem. If not, please try
+      resolves the problem. If not, please try reinstalling the app. If the
+      issue persists, please email us with details of your issue. Thank you in
+      advance for your patience and understanding.
     question: The game doesn’t start
+  - answer: >-
+      We’re very sorry that you are experiencing problems with our game. Please
+      look at the game specific sections of this FAQ to see if your particular
+      crash is addressed elsewhere. If not, please email us with details of your
+      crash. The more information you can provide, the more helpful it will be
+      to us in trying to understand what is going wrong. Thank you in advance
+      for your patience and understanding.
+
+
+      The following information may be helpful to us:
+
+
+      * Your country
+
+      * Your platform (e.g. iOS, Android, PC, Nintendo Switch)
+
+      * Your device model and OS version
+
+      * At what point exactly does the game crash?
+
+      * What are the steps you take which lead up to the crash?
+
+      * Does the crash occur in a specific game mode?
+    question: The game crashes
 ---
 
