@@ -1,18 +1,17 @@
 ---
-title: Monopoly
-Title: Monopoly
+title: The Game of Life
 image: /images/uploads/monopoly-hero-1.jpg
-icon: /images/uploads/hands-wide-open-monopoly-150x150.png
+icon: /images/uploads/monopoly_icon.png
 faq:
   - answer: >-
       If you are using an iOS device, please try tapping the Restore Purchases
       button on the Settings screen. Make sure you’re logged in to the same
-      Apple account you used for the original purchase.
+      Apple account that was used for the original purchase.
 
 
       If you are using an Android device, you should be able to restore your
       purchases by tapping the Buy button again from the in-game shop. Don’t
-      worry, you won’t be charged twice, as long as you are using the same
+      w#orry, you won’t be charged twice, as long as you are using the same
       Google Play account that was used for the original purchase. Please make
       sure to tap the exact same thing as you did when you bought the original
       in-app purchase. 
@@ -52,9 +51,11 @@ faq:
     question: The game doesn’t start
   - answer: >-
       We’re very sorry that you are experiencing problems with our game. Please
-      email us with details of your crash. The more information you can provide,
-      the more helpful it will be to us in trying to understand what is going
-      wrong. Thank you in advance for your patience and understanding.
+      look at the game specific sections of this FAQ to see if your particular
+      crash is addressed elsewhere. If not, please email us with details of your
+      crash. The more information you can provide, the more helpful it will be
+      to us in trying to understand what is going wrong. Thank you in advance
+      for your patience and understanding.
 
 
       The following information may be helpful to us:
@@ -73,7 +74,7 @@ faq:
       * Does the crash occur in a specific game mode?
     question: The game crashes
   - answer: >-
-      We understand that some players do not like the concept of further
+      We appreciate that some players do not like the concept of further
       purchases in a premium game. However, the majority of our players
       appreciate the opportunity to enhance their experience with different
       aesthetics. Each theme is created by a team of talented artists who
@@ -96,10 +97,10 @@ faq:
       update automatically. If this is already the case, try manually refreshing
       the app store for updates. If this still doesn’t work, please try again
       later - sometimes it can take up to 24 hours for updates to propagate to
-      all app stores around the world
+      all app stores around the world.
     question: >-
       The game tells me to update, but no update is there when I go to the app
-      store.
+      store
   - answer: >-
       Yes, you can share the core app via Family Sharing/Family Library, but any
       in-app purchases cannot be shared. This is due to restrictions imposed by
@@ -139,6 +140,8 @@ faq:
       contact Google Play directly.
 
 
+
+
       1) Check whether Download Manager is Enabled.
 
 
@@ -153,6 +156,8 @@ faq:
       * Check it is enabled
 
 
+
+
       2) Check if there are any updates to the Operating System of your Android
       device.
 
@@ -162,6 +167,8 @@ faq:
       * Press About
 
       * Check if there are any updates
+
+
 
 
       3) Reinstall Play Store updates by following these instructions:
@@ -177,10 +184,12 @@ faq:
 
       * Open Google Play Store
 
-      * It will refresh the updates within 5 to 10 minutes (keep your internet
+
+      It will refresh the updates within 5 to 10 minutes (keep your internet
       connection on while Google Play Store is updating).
 
-      * Install the game
+
+      Install the game
     question: I’m having problems installing the game from Google Play (Error 505)
   - answer: >-
       We are aware that some players are experiencing freezes, where the game
