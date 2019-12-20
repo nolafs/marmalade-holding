@@ -213,25 +213,31 @@ faq:
       game.
     question: 'I can access the game setup menus, but I can’t start the game'
   - answer: >-
-      Yes, we are currently investigating adding statistics to the game as part
-      of a future update, along with many other exciting features and
-      improvements.
-    question: Will you add statistics to the game?
+      Unfortunately, as of right now, we have no plans to update the Steam
+      version of The Game of Life with the extra content available in the mobile
+      versions.
+    question: Will the mobile DLC be made available on the Steam version?
   - answer: >-
-      We are aware that some players are experiencing frustration with the speed
-      of the game in Single Player mode. We have already updated the game to
-      allow players to dismiss UI elements (e.g. Chance cards) by tapping, and
-      to speed up token movement, and we will continue to speed up the game
-      wherever we can.
-    question: The game is too slow
-  - answer: >-
-      Please make sure that all players have updated to the latest version of
-      the app. You can check the version number on the Settings screen. If
-      players are on different versions, they will be unable to join a lobby
-      together.
-    question: >-
-      Play With Friends says “Invalid Code” even though I entered the code
-      correctly
+      There might be an issue with the Facebook connection. Take the following
+      steps to try and force the connection again:
+
+
+      * Make sure both players have the Facebook app installed on your devices
+      and are logged in
+
+      * Also log in to Facebook on the web browser in your devices
+
+      * While on Facebook, go to Settings > Apps, and clear The Game of Life
+      from the list
+
+      * Open The Game of Life again and a message should appear saying your
+      Facebook connection has expired and asking you to login again
+
+
+      After this, you should be able to invite the other player normally. Make
+      sure that they have the game open and is either on the Main Menu or on the
+      World Selection screen.
+    question: I’m having problems creating a game with my Facebook friend
   - answer: >-
       Unfortunately, it sounds like you own the old Monopoly app which was
       developed by a different studio that is no longer supporting it. We, at
