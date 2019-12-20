@@ -1,6 +1,6 @@
 ---
 title: Battleship
-image: /images/uploads/battleshipbanner.png
+image: /images/uploads/battleshipbannerlarge.png
 icon: /images/uploads/256x256bb.jpg
 faq:
   - answer: >-
