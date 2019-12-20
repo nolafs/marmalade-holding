@@ -4,6 +4,7 @@ game: Monopoly
 header:
   image: /images/uploads/monopoly-hero-1.jpg
   logo: /images/uploads/monopolylogowhite.png
+icon: /images/uploads/monopoly_icon.png
 faq:
   - answer: >-
       If you are using an iOS device, please try tapping the Restore Purchases
