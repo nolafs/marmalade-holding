@@ -1,6 +1,5 @@
 ---
-title: Monopoly
-Title: Monopoly
+title: Cluedo
 image: /images/uploads/monopoly-hero-1.jpg
 icon: /images/uploads/monopoly_icon.png
 faq:
