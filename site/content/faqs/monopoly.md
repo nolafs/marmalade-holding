@@ -191,5 +191,13 @@ faq:
 
       Install the game
     question: I’m having problems installing the game from Google Play (Error 505)
+  - answer: >-
+      We are aware that some players are experiencing freezes, where the game
+      becomes unresponsive, particularly in Online games. We apologise to all
+      players who have encountered this issue. We have already released a number
+      of updates, and we will continue to find and fix freeze bugs until the
+      game is rock solid. Please bear with us while we track down these issues,
+      and thank you in advance for your patience.
+    question: The game keeps freezing
 ---
 
