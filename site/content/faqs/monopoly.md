@@ -14,7 +14,7 @@ faq:
 
       If you are using an Android device, you should be able to restore your
       purchases by tapping the Buy button again from the in-game shop. Don’t
-      worry, you won’t be charged twice, as long as you are using the same
+      w#orry, you won’t be charged twice, as long as you are using the same
       Google Play account that was used for the original purchase. Please make
       sure to tap the exact same thing as you did when you bought the original
       in-app purchase. 

@@ -4,12 +4,6 @@
 {{ define "main" }} {{ $section := .Site.GetPage "section" .Section }}
 <div class="grid-container m-t-b-70">
   <article >
-    <main>
-      test
-      {{range .Params.faq}}
-        {{.answer}}
-      {{end}}
-    </main>
+    <main>{{- .Content -}}</main>
   </article>
 </div>
-{{ end }}

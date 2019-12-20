@@ -93,8 +93,7 @@ collections:
     fields:
       - {label: "Game", name: "title", widget: "relation" , collection: "games" , searchFields:["title"], valueField: "title", displayFields: ["title"] }
       - {label: "Hero Header", name: header, widget: object, fields: [
-          {label: "Image", name: "image", widget: "image"},
-          {label: "Logo", name: "logo", widget: "image"}
+          {label: "Image", name: "image", widget: "image"}
       ]}
       - {label: "icon", name: "icon", widget: "image"}
       - {label: "faq", name: "faq", widget: "list", fields: [
