@@ -1,6 +1,6 @@
 ---
 title: Cluedo
-image: /images/uploads/monopoly-hero-1.jpg
+image: /images/uploads/mustardad.png
 icon: /images/uploads/30ce72d49a1e693ce6b1d6eb4c12d36e.jpg
 faq:
   - answer: >-
