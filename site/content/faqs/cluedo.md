@@ -27,7 +27,8 @@ faq:
       * Your purchase order receipt(s). For Android, we need to see the GPA
       number.
 
-      * The in-game Settings screen.
+      * For Clue/Cluedo, please provide a screenshot of the second page of the
+      Settings screen (swipe from the right).
 
 
       We can then use this information to resolve the problem.
@@ -140,9 +141,7 @@ faq:
       contact Google Play directly.
 
 
-
-
-      1) Check whether Download Manager is Enabled.
+      1. Check whether Download Manager is Enabled.
 
 
       * Go to Settings
@@ -156,9 +155,7 @@ faq:
       * Check it is enabled
 
 
-
-
-      2) Check if there are any updates to the Operating System of your Android
+      2. Check if there are any updates to the Operating System of your Android
       device.
 
 
@@ -169,9 +166,7 @@ faq:
       * Check if there are any updates
 
 
-
-
-      3) Reinstall Play Store updates by following these instructions:
+      3. Reinstall Play Store updates by following these instructions:
 
 
       * Go to Settings
@@ -184,12 +179,10 @@ faq:
 
       * Open Google Play Store
 
-
-      It will refresh the updates within 5 to 10 minutes (keep your internet
+      * It will refresh the updates within 5 to 10 minutes (keep your internet
       connection on while Google Play Store is updating).
 
-
-      Install the game
+      * Install the game
     question: I’m having problems installing the game from Google Play (Error 505)
   - answer: >-
       We are aware that some players are experiencing freezes, where the game
