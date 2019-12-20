@@ -1,9 +1,7 @@
 ---
 title: Monopoly
 game: Monopoly
-header:
-  image: /images/uploads/monopoly-hero-1.jpg
-  logo: /images/uploads/monopolylogowhite.png
+image: /images/uploads/monopoly-hero-1.jpg
 icon: /images/uploads/monopoly_icon.png
 faq:
   - answer: >-
