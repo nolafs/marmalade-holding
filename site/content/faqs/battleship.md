@@ -140,9 +140,7 @@ faq:
       contact Google Play directly.
 
 
-
-
-      1) Check whether Download Manager is Enabled.
+      1. Check whether Download Manager is Enabled.
 
 
       * Go to Settings
@@ -156,9 +154,7 @@ faq:
       * Check it is enabled
 
 
-
-
-      2) Check if there are any updates to the Operating System of your Android
+      2. Check if there are any updates to the Operating System of your Android
       device.
 
 
@@ -169,9 +165,7 @@ faq:
       * Check if there are any updates
 
 
-
-
-      3) Reinstall Play Store updates by following these instructions:
+      3. Reinstall Play Store updates by following these instructions:
 
 
       * Go to Settings
@@ -184,48 +178,40 @@ faq:
 
       * Open Google Play Store
 
-
-      It will refresh the updates within 5 to 10 minutes (keep your internet
+      * It will refresh the updates within 5 to 10 minutes (keep your internet
       connection on while Google Play Store is updating).
 
-
-      Install the game
+      * Install the game
     question: I’m having problems installing the game from Google Play (Error 505)
   - answer: >-
-      We are aware that some players are experiencing freezes, where the game
-      becomes unresponsive, particularly in Online games. We apologise to all
-      players who have encountered this issue. We have already released a number
-      of updates, and we will continue to find and fix freeze bugs until the
-      game is rock solid. Please bear with us while we track down these issues,
-      and thank you in advance for your patience.
-    question: The game keeps freezing
-  - answer: >-
-      We are aware that some players are experiencing an issue where Online
-      games skip the lobby stage and go straight into the game, but there are no
-      players and the game never starts. We apologise to all players who have
-      encountered this issue. Rest assured that we are trying our hardest to
-      track down the cause of this issue and fix it.
-    question: Online games do not begin properly
-  - answer: >-
-      We are aware that currently Online games are not very tolerant of poor
-      connection issues or briefly leaving the app. We are working on enabling
-      players to reconnect to Online games after a brief period of connection
-      loss or app suspension. This will be rolled out in an update soon, along
-      with many other cool new features.
-    question: I get disconnected from Online games very easily
-  - answer: >-
-      We can assure you that the game's chance mechanics (dice rolls, cards,
-      etc) are completely random and luck-based. Rigged games are unfair and no
-      fun, and our goal as game developers is always to deliver the best gaming
-      experience possible. We know that sometimes it can feel like the AI get
-      all the breaks, but this really is pure chance - we’d have nothing to gain
-      by making the AI cheat!
+      It sounds like the game files were corrupted during installation. Please
+      follow the following steps to try and fix the issue:
 
 
-      Regarding difficulty - we are aware that some players are finding even
-      Easy AI too hard, and we are continuing to tweak its behaviour (in terms
-      of strategy and trading behaviour) to make it easier.
-    question: The game is too hard - is it rigged?
+      * Go to your application manager and select The Game of Life
+
+      * Press Storage
+
+      * Clear Data and Cache
+
+      * Uninstall The Game of Life
+
+      * Restart your phone
+
+      * Install The Game of Life and try to open it again
+    question: The game crashes on the Hasbro splash screen
+  - answer: >-
+      The Game of Life requests access to your storage in order to finish the
+      download of the app, which would not be possible unless the installation
+      files could be saved on your device. We don’t view, use or store your data
+      anywhere.
+    question: Why does the game need access to my photos?
+  - answer: >-
+      You may have selected a vehicle that is in a pack that you don’t own. This
+      will be indicated by a green shopping cart button underneath it. Select a
+      different vehicle (one that you own) and you should be able to start the
+      game.
+    question: 'I can access the game setup menus, but I can’t start the game'
   - answer: >-
       Yes, we are currently investigating adding statistics to the game as part
       of a future update, along with many other exciting features and
