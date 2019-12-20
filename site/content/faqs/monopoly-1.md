@@ -1,5 +1,6 @@
 ---
 title: Monopoly
+Title: Monopoly
 image: /images/uploads/monopoly-hero-1.jpg
 icon: /images/uploads/hands-wide-open-monopoly-150x150.png
 faq:
