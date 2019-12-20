@@ -184,66 +184,31 @@ faq:
       * Install the game
     question: I’m having problems installing the game from Google Play (Error 505)
   - answer: >-
-      It sounds like the game files were corrupted during installation. Please
-      follow the following steps to try and fix the issue:
-
-
-      * Go to your application manager and select The Game of Life
-
-      * Press Storage
-
-      * Clear Data and Cache
-
-      * Uninstall The Game of Life
-
-      * Restart your phone
-
-      * Install The Game of Life and try to open it again
-    question: The game crashes on the Hasbro splash screen
+      Please make sure that all players have updated to the latest version of
+      the app. You can check the version number on the Settings screen. If
+      players are on different versions, they will be unable to join a lobby
+      together.
+    question: >-
+      Play With Friends says “Invalid Code” even though I entered the code
+      correctly
   - answer: >-
-      The Game of Life requests access to your storage in order to finish the
-      download of the app, which would not be possible unless the installation
-      files could be saved on your device. We don’t view, use or store your data
-      anywhere.
-    question: Why does the game need access to my photos?
-  - answer: >-
-      You may have selected a vehicle that is in a pack that you don’t own. This
-      will be indicated by a green shopping cart button underneath it. Select a
-      different vehicle (one that you own) and you should be able to start the
-      game.
-    question: 'I can access the game setup menus, but I can’t start the game'
-  - answer: >-
-      Unfortunately, as of right now, we have no plans to update the Steam
-      version of The Game of Life with the extra content available in the mobile
-      versions.
-    question: Will the mobile DLC be made available on the Steam version?
-  - answer: >-
-      There might be an issue with the Facebook connection. Take the following
-      steps to try and force the connection again:
+      We are aware that some players are having problems with the local
+      multiplayer feature, and we apologise to those who are affected. This is a
+      particularly difficult issue for us to trace because it involves third
+      party multiplayer matchmaking code, but rest assured that we are
+      investigating the problem and hope to have a solution soon.
 
 
-      * Make sure both players have the Facebook app installed on your devices
-      and are logged in
-
-      * Also log in to Facebook on the web browser in your devices
-
-      * While on Facebook, go to Settings > Apps, and clear The Game of Life
-      from the list
-
-      * Open The Game of Life again and a message should appear saying your
-      Facebook connection has expired and asking you to login again
+      In the meantime, some players have found that the problem can be
+      temporarily worked around by deleting and reinstalling both the
+      Switch/Steam game and the Battle Grid Companion on the mobile device. We
+      apologise for the inconvenience.
 
 
-      After this, you should be able to invite the other player normally. Make
-      sure that they have the game open and is either on the Main Menu or on the
-      World Selection screen.
-    question: I’m having problems creating a game with my Facebook friend
-  - answer: >-
-      Unfortunately, it sounds like you own the old Monopoly app which was
-      developed by a different studio that is no longer supporting it. We, at
-      Marmalade Game Studio, only released our version of the game in 2019.
-      Regrettably, since our studio isn't affiliated with this other developer,
-      there is nothing we can do.
-    question: 'I bought an old version of this game, and now I have to pay for it again?'
+      If this FAQ does not answer your question, please email us:
+      contactus@marmalademail.com
+    question: >-
+      I can’t use the Battle Grid Companion app with my Nintendo Switch/Steam
+      version of the game - it always says “Invalid Code”
 ---
 
