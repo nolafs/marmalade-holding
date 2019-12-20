@@ -1,7 +1,7 @@
 ---
 title: 'The Game of Life: Vacations'
 image: /images/uploads/hero-about.jpg
-icon: /images/uploads/golv_icon512_en.png
+icon: /images/uploads/golv_teaser_instagram.png
 faq:
   - answer: >-
       If you are using an iOS device, please try tapping the Restore Purchases
