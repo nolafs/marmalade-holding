@@ -185,13 +185,20 @@ faq:
       * Install the game
     question: I’m having problems installing the game from Google Play (Error 505)
   - answer: >-
-      We are aware that some players are experiencing freezes, where the game
-      becomes unresponsive, particularly in Online games. We apologise to all
-      players who have encountered this issue. We have already released a number
-      of updates, and we will continue to find and fix freeze bugs until the
-      game is rock solid. Please bear with us while we track down these issues,
-      and thank you in advance for your patience.
-    question: The game keeps freezing
+      We are aware that some players are having problems with the local
+      multiplayer feature, and we apologise to those who are affected. This is a
+      particularly difficult issue for us to trace because it involves third
+      party multiplayer matchmaking code, but rest assured that we are
+      investigating the problem and hope to have a solution soon.
+
+
+      In the meantime, some players have found that the problem can be
+      temporarily worked around by deleting and reinstalling both the
+      Switch/Steam game and the Cluesheet Companion on the mobile device. We
+      apologise for the inconvenience.
+    question: >-
+      I can’t use the Cluesheet Companion app with my Nintendo Switch/Steam
+      version of the game - it always says “Invalid Code”
   - answer: >-
       We are aware that some players are experiencing an issue where Online
       games skip the lobby stage and go straight into the game, but there are no
