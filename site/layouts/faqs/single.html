@@ -3,8 +3,20 @@
 {{end}}
 {{ define "main" }} {{ $section := .Site.GetPage "section" .Section }}
 <div class="grid-container m-t-b-70">
-  <article >
-    <main>{{- .Content -}}</main>
-  </article>
+  <section>
+    <ul class="accordion" data-accordion>
+    {{range .Params.faq }}
+
+      <li class="accordion-item" data-accordion-item>
+        <a href="#" class="accordion-title">{{.question}}</a>
+        <div class="accordion-content" data-tab-content>
+          {{ .answer | markdownify }}
+
+        </div>
+      </li>
+
+    {{end}}
+    </ul>
+  </section>
 </div>
 {{ end }}
