@@ -80,5 +80,26 @@ faq:
       aesthetics. Each theme is created by a team of talented artists who
       delight in dreaming up beautiful new worlds for our players.
     question: I don’t like that there is IAP in a premium app
+  - answer: >-
+      We understand concerns about the privacy notifications we introduced to be
+      compliant with new European GDPR laws. Rest assured that we only request
+      access for benign reasons. The third party multiplayer services we use
+      will only work if we request access, and the only data we track is for
+      analytics that help us understand how our players are using the game, so
+      that we can make improvements to their experience. We do not allow third
+      parties to access your data. You can opt out of everything by refusing
+      consent.
+    question: Why do you ask for access to my data on first installing the app?
+  - answer: >-
+      When we update our apps, sometimes we need every user to upgrade (so that
+      all multiplayer uses are on compatible versions). If no update is
+      appearing on the app store, first ensure that you have set your apps to
+      update automatically. If this is already the case, try manually refreshing
+      the app store for updates. If this still doesn’t work, please try again
+      later - sometimes it can take up to 24 hours for updates to propagate to
+      all app stores around the world.
+    question: >-
+      The game tells me to update, but no update is there when I go to the app
+      store
 ---
 
