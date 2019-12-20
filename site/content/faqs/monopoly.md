@@ -246,5 +246,12 @@ faq:
     question: >-
       Play With Friends says “Invalid Code” even though I entered the code
       correctly
+  - answer: >-
+      Unfortunately, it sounds like you own the old Monopoly app which was
+      developed by a different studio that is no longer supporting it. We, at
+      Marmalade Game Studio, only released our version of the game in 2019.
+      Regrettably, since our studio isn't affiliated with this other developer,
+      there is nothing we can do.
+    question: 'I bought an old version of this game, and now I have to pay for it again?'
 ---
 
