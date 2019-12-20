@@ -14,9 +14,6 @@
     color: $white;
     h1{
       color: $white;
-      span {
-        color: $green
-      }
     }
 
     .hero-header-logo {
@@ -195,8 +192,6 @@
     }
 
     padding-bottom: $global-margin;
-    background: #42827d; /* Old browsers */
-    background: linear-gradient(to bottom,  #42827d 0%,#42827d 60%,#ffffff 60%,#ffffff 100%);
   }
 }
 
