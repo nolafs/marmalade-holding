@@ -212,31 +212,25 @@ faq:
       > Apps > Clue/Cluedo > Storage > Clear Data
     question: I get a black screen when I try to load the game on my Android device
   - answer: >-
-      Yes, we are currently investigating adding statistics to the game as part
-      of a future update, along with many other exciting features and
-      improvements.
-    question: Will you add statistics to the game?
+      Yes, if you log into Facebook on the device you purchased the IAP, you
+      will then be able to install the app on a different device (even a
+      different platform) and recover the IAP by logging into the same Facebook
+      account on the second device.
+    question: Can I share my in-app purchases (IAP) over several devices?
   - answer: >-
-      We are aware that some players are experiencing frustration with the speed
-      of the game in Single Player mode. We have already updated the game to
-      allow players to dismiss UI elements (e.g. Chance cards) by tapping, and
-      to speed up token movement, and we will continue to speed up the game
-      wherever we can.
-    question: The game is too slow
+      You can change the difficulty of your game on the AI Select screen. Tap
+      the character profiles of the AI you have added to the game - this cycles
+      between Easy/Medium/Hard for that particular AI. For the hardest possible
+      game, add 5 AI and set them all to Hard.
+    question: How do you change difficulty?
   - answer: >-
-      Please make sure that all players have updated to the latest version of
-      the app. You can check the version number on the Settings screen. If
-      players are on different versions, they will be unable to join a lobby
-      together.
+      You will have to buy the core game again, but if you have bought the
+      Season Pass or any IAP content on the mobile version, you can transfer it
+      across to the Steam version. We will also transfer IAP content from Steam
+      to mobile. Send us an email with proof of purchase and your in-game
+      username, and we will process the transfer.
     question: >-
-      Play With Friends says “Invalid Code” even though I entered the code
-      correctly
-  - answer: >-
-      Unfortunately, it sounds like you own the old Monopoly app which was
-      developed by a different studio that is no longer supporting it. We, at
-      Marmalade Game Studio, only released our version of the game in 2019.
-      Regrettably, since our studio isn't affiliated with this other developer,
-      there is nothing we can do.
-    question: 'I bought an old version of this game, and now I have to pay for it again?'
+      I’ve already bought the game and theme content on mobile. Do I have to buy
+      it again on Steam?
 ---
 
