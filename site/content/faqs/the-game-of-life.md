@@ -1,7 +1,7 @@
 ---
 title: The Game of Life
 image: /images/uploads/monopoly-hero-1.jpg
-icon: /images/uploads/monopoly_icon.png
+icon: /images/uploads/39cf3c7e83feedbed4f3101b52d7a120.jpg
 faq:
   - answer: >-
       If you are using an iOS device, please try tapping the Restore Purchases
