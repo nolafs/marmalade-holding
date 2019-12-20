@@ -101,5 +101,14 @@ faq:
     question: >-
       The game tells me to update, but no update is there when I go to the app
       store
+  - answer: >-
+      Yes, you can share the core app via Family Sharing/Family Library, but any
+      in-app purchases cannot be shared. This is due to restrictions imposed by
+      Apple and Google.
+    question: Can I share the game via Family Sharing/Family Library?
+  - answer: >-
+      No. If you have purchased the app on one platform, you must purchase it
+      again if you want to play it on the other platform.
+    question: 'Can I transfer the app from iOS to Android, or vice versa?'
 ---
 
