@@ -1,5 +1,6 @@
 ---
 title: Monopoly
+game: Monopoly
 header:
   image: /images/uploads/monopoly-hero-1.jpg
   logo: /images/uploads/monopolylogowhite.png
