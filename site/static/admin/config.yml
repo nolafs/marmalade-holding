@@ -92,7 +92,7 @@ collections:
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Game", name: "game", widget: "relation" , collection: "games" , searchFields:["title"], valueField: "title", displayField: "title" }
+      - {label: "Game", name: "game", widget: "relation" , collection: "games" , searchFields:["title"], valueField: "title", displayFields: ["title", "header.image", "header.logo"] }
       - {label: "Hero Header", name: header, widget: object, fields: [
           {label: "Image", name: "image", widget: "image"},
           {label: "Logo", name: "logo", widget: "image"}
