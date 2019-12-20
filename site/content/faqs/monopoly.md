@@ -73,5 +73,12 @@ faq:
 
       * Does the crash occur in a specific game mode?
     question: The game crashes
+  - answer: >-
+      We appreciate that some players do not like the concept of further
+      purchases in a premium game. However, the majority of our players
+      appreciate the opportunity to enhance their experience with different
+      aesthetics. Each theme is created by a team of talented artists who
+      delight in dreaming up beautiful new worlds for our players.
+    question: I don’t like that there is IAP in a premium app
 ---
 
