@@ -110,5 +110,86 @@ faq:
       No. If you have purchased the app on one platform, you must purchase it
       again if you want to play it on the other platform.
     question: 'Can I transfer the app from iOS to Android, or vice versa?'
+  - answer: >-
+      We are sorry to hear that you are having issues installing our game.
+
+
+      Error 505 is a kind of permission error that is not caused by our app but
+      from the Google Play store.
+
+
+      There are several reasons why it could occur but most of the times its
+      fixed by clearing the data and cache of the Google Play app and Google
+      Play Services framework:
+
+
+      Go to Settings > Apps. Scroll down and select "Google Play Store". Select
+      Storage > "Clear Cache" and "Clear Data"
+
+
+      Go to Settings > Apps. Scroll down and select "Google Play Services".
+      Select Storage > "Clear Cache" and "Clear Data"
+
+
+      Restart your phone, download the game again and try to install the game.
+
+
+      If this still doesn’t work, there are some further troubleshooting tips
+      below, but bear in mind that this is an error from the Google Play Store,
+      not a Marmalade specific error, so if the problem persists then please
+      contact Google Play directly.
+
+
+
+
+      1) Check whether Download Manager is Enabled.
+
+
+      * Go to Settings
+
+      * Press Apps
+
+      * Select All
+
+      * Scroll down until you find Download Manager
+
+      * Check it is enabled
+
+
+
+
+      2) Check if there are any updates to the Operating System of your Android
+      device.
+
+
+      * Go to Settings 
+
+      * Press About
+
+      * Check if there are any updates
+
+
+
+
+      3) Reinstall Play Store updates by following these instructions:
+
+
+      * Go to Settings
+
+      * Press Apps
+
+      * Press Google Play Store
+
+      * Press Uninstall Updates
+
+      * Open Google Play Store
+
+
+      It will refresh the updates within 5 to 10 minutes (keep your internet
+      connection on while Google Play Store is updating).
+
+
+      Install the game
+    question: I’m having problems installing the game from Google Play (Error 505)
 ---
 
