@@ -199,5 +199,52 @@ faq:
       game is rock solid. Please bear with us while we track down these issues,
       and thank you in advance for your patience.
     question: The game keeps freezing
+  - answer: >-
+      We are aware that some players are experiencing an issue where Online
+      games skip the lobby stage and go straight into the game, but there are no
+      players and the game never starts. We apologise to all players who have
+      encountered this issue. Rest assured that we are trying our hardest to
+      track down the cause of this issue and fix it.
+    question: Online games do not begin properly
+  - answer: >-
+      We are aware that currently Online games are not very tolerant of poor
+      connection issues or briefly leaving the app. We are working on enabling
+      players to reconnect to Online games after a brief period of connection
+      loss or app suspension. This will be rolled out in an update soon, along
+      with many other cool new features.
+    question: I get disconnected from Online games very easily
+  - answer: >-
+      We can assure you that the game's chance mechanics (dice rolls, cards,
+      etc) are completely random and luck-based. Rigged games are unfair and no
+      fun, and our goal as game developers is always to deliver the best gaming
+      experience possible. We know that sometimes it can feel like the AI get
+      all the breaks, but this really is pure chance - we’d have nothing to gain
+      by making the AI cheat!
+
+
+      Regarding difficulty - we are aware that some players are finding even
+      Easy AI too hard, and we are continuing to tweak its behaviour (in terms
+      of strategy and trading behaviour) to make it easier.
+    question: The game is too hard - is it rigged?
+  - answer: >-
+      Yes, we are currently investigating adding statistics to the game as part
+      of a future update, along with many other exciting features and
+      improvements.
+    question: Will you add statistics to the game?
+  - answer: >-
+      We are aware that some players are experiencing frustration with the speed
+      of the game in Single Player mode. We have already updated the game to
+      allow players to dismiss UI elements (e.g. Chance cards) by tapping, and
+      to speed up token movement, and we will continue to speed up the game
+      wherever we can.
+    question: The game is too slow
+  - answer: >-
+      Please make sure that all players have updated to the latest version of
+      the app. You can check the version number on the Settings screen. If
+      players are on different versions, they will be unable to join a lobby
+      together.
+    question: >-
+      Play With Friends says “Invalid Code” even though I entered the code
+      correctly
 ---
 
