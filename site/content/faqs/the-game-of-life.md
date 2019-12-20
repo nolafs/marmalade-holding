@@ -1,6 +1,6 @@
 ---
 title: The Game of Life
-image: /images/uploads/monopoly-hero-1.jpg
+image: /images/uploads/golv_frontpage.jpg
 icon: /images/uploads/39cf3c7e83feedbed4f3101b52d7a120.jpg
 faq:
   - answer: >-
