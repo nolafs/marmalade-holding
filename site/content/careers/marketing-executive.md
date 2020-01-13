@@ -61,7 +61,3 @@ Then please send your CV, covering letter and portfolio to jobs@marmalademail.co
 
 
 If you are selected for an interview you will normally be contacted within two weeks of the closing date. If you do not hear from us within this period then you should assume that, unfortunately, on this occasion you have been unsuccessful.
-
-
-
-MONOPOLY
