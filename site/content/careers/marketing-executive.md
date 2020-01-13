@@ -8,19 +8,13 @@ header:
 ---
 Marmalade Game Studio is looking for a Marketing Executive who loves video games and has previous experience launching games on Steam using Early Access, wishlists, etc. You will act as our Steam marketing expert to help us raise awareness and successfully release new titles. 
 
-
-
 As part of the Marketing Executives team, you will also work on multi-channel marketing campaigns for our portfolio of digital board games, such as The Game of Life, Cluedo and Monopoly across Steam, Nintendo Switch and Mobile.
-
-
 
 Based near Goodge Street station, right in the heart of London, you will join a close-knit and growing marketing team in a passionate games studio. We love what we do, and love working alongside other people who share the same ambition and dedication to quality. 
 
-
-
 This position is full-time and on-site
 
-The Role
+# THE ROLE
 
 Be the expert on Steam marketing tactics, such as Early Access, wishlists and tags
 
@@ -36,9 +30,7 @@ Reach out to influencers and press
 
 Report on campaign performance
 
-
-
-The Ideal Candidate
+# THE IDEAL CANDIDATE
 
 Demonstrable experience launching a game on Steam
 
@@ -50,9 +42,7 @@ A keen eye for detail and understanding of asset requirements
 
 A passion for video games
 
-
-
-The Package:
+# THE PACKAGE:
 
 Competitive salary
 
@@ -63,3 +53,15 @@ Company pension scheme
 Company Health and Life insurance
 
 Flexible work hours
+
+# DOES THIS SOUND LIKE THE JOB FOR YOU?
+
+Then please send your CV, covering letter and portfolio to jobs@marmalademail.com
+
+
+
+If you are selected for an interview you will normally be contacted within two weeks of the closing date. If you do not hear from us within this period then you should assume that, unfortunately, on this occasion you have been unsuccessful.
+
+
+
+MONOPOLY
