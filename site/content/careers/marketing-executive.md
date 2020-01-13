@@ -14,7 +14,7 @@ Based near Goodge Street station, right in the heart of London, you will join a 
 
 This position is full-time and on-site
 
-# THE ROLE
+## THE ROLE
 
 Be the expert on Steam marketing tactics, such as Early Access, wishlists and tags
 
@@ -30,7 +30,7 @@ Reach out to influencers and press
 
 Report on campaign performance
 
-# THE IDEAL CANDIDATE
+## THE IDEAL CANDIDATE
 
 Demonstrable experience launching a game on Steam
 
@@ -42,7 +42,7 @@ A keen eye for detail and understanding of asset requirements
 
 A passion for video games
 
-# THE PACKAGE:
+## THE PACKAGE:
 
 Competitive salary
 
