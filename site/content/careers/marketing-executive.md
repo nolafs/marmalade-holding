@@ -54,7 +54,7 @@ Company Health and Life insurance
 
 Flexible work hours
 
-# DOES THIS SOUND LIKE THE JOB FOR YOU?
+## DOES THIS SOUND LIKE THE JOB FOR YOU?
 
 Then please send your CV, covering letter and portfolio to jobs@marmalademail.com
 
