@@ -4,8 +4,7 @@ title: App Privacy
 ## Privacy Policy
 
 This Privacy Policy is set out by Marmalade Game Studio Ltd. (including its wholly owned
-subsidiaries) (“Marmalade”) of 2 - 7 Clerkenwell Green, London, EC1R 0DE, UK as at 1 st November
-2017 and as amended from time-to-time.
+subsidiaries) (“Marmalade”)  33 Charlotte Street, Fitzrovia, London W1T 1RR as at 20th of January 2020 and as amended from time-to-time.
 
 This Privacy Policy is applicable to mobile phone or tablet applications provided, sold or
 distributed to you by Marmalade.
@@ -45,7 +44,6 @@ people you follow and/or who follow you, the posts or the ‘likes’ you make) 
 as part of the operation of the application. We may also obtain other information from your
 interaction with our content (e.g., content viewed, game performance, high scores, and information
 about advertisements within the content you have been shown or may have clicked on).
-
 
 Social Media sites and applications will often allow you to control what data you share by changing
 your privacy settings with that Social Media site or application. For more information about how
@@ -90,7 +88,6 @@ information only in accordance with this Privacy Policy with Vendors as set out 
 third parties as necessary to complete any transaction through our websites or other online
 properties and/or provide Online Services you have requested.
 
-
 If you do not agree to the collection, processing, storage and transfer of your information, please
 do not provide your information when requested and stop using these features and services.
 
@@ -112,5 +109,3 @@ Marmalade reserves the right to make changes to this Privacy Policy. If we make 
 to this Privacy Policy, we will post a notice of the change on this Privacy Policy. Your continued use
 of the Mobile or Tablet Applications will signify your acceptance of these changes. If you do not
 agree to any of these changes, please do not continue using the Applications.
-
-
