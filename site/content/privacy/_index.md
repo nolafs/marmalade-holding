@@ -5,7 +5,7 @@ title: Privacy
 
 #### 1. IMPORTANT
 
-1.1. This Privacy Policy is set out by Marmalade Game Studio Ltd. (including its wholly owned subsidiaries) (“Marmalade”) of 2 - 7 Clerkenwell Green, London, EC1R 0DE, UK as at 1st November 2017 and as amended from time-to-time per section 1.6.
+1.1. This Privacy Policy is set out by Marmalade Game Studio Ltd. (including its wholly owned subsidiaries) (“Marmalade”) of 33 Charlotte Street, Fitzrovia, London W1T 1RR as at 20th of January 2020 and as amended from time-to-time per section 1.6.
 1.2. The Marmalade Privacy Policy is applicable to the websites, mobile phone or tablet
 applications, other online product or services, software applications and other software
 products (collectively “Digital Products”) provided, sold or distributed to you by Marmalade.
@@ -34,7 +34,7 @@ level may be lower than in the European Union, but Marmalade will take reasonabl
 1.5. If you do not agree to this Privacy Policy, please do not use the Digital Products.
 1.6. Marmalade reserves the right to make changes to this Privacy Policy. If we make a material
 change to this Privacy Policy, we will post a notice of the change on
-http://www.marmaladegamestudio.com and also on this Privacy Policy. Your continued use of ©2017 Marmalade Game Studio Ltd.
+http://www.marmaladegamestudio.com and also on this Privacy Policy. Your continued use of ©2020 Marmalade Game Studio Ltd.
 the Digital Products will signify your acceptance of these changes. If you do not agree to any
 of these changes, please do not continue using the Digital Products.
 1.7. This Privacy Policy currently applies to Digital Products operated by Marmalade that post or link to this Privacy Policy
@@ -85,7 +85,7 @@ services of interest to you.
 
 Services for you.^
 3.2. Further, use of certain features of Online Services, such as messages boards, profiles, and
-contributing user generated content, may involve disclosure of personal information about you by you. You acknowledge that you have no right or expectation of privacy or confidentiality when using such features of Online Services. ©2017 Marmalade Game Studio Ltd.
+contributing user generated content, may involve disclosure of personal information about you by you. You acknowledge that you have no right or expectation of privacy or confidentiality when using such features of Online Services. ©2020 Marmalade Game Studio Ltd.
 
 3.3. In some instances, we may use a third party service to provide authentication for Online
 Services, and in such case you may be asked to provide your account information associated
@@ -139,7 +139,7 @@ device when it visits other, third party websites or^ online properties.^
 6.5. Third parties that set these cookies can recognize your computer or device both when it visits
 Marmalade websites or other online properties in question and also when it visits
 
-©2017 Marmalade Game Studio Ltd.
+©2020 Marmalade Game Studio Ltd.
 
 certain other non-Marmalade websites or online properties that use the third party's features
 and functionality
@@ -307,7 +307,7 @@ applications); and^
 (c) contact you in accordance with your marketing preferences through the social networking
 sites or directly by sending you the latest news, special offerings, and rewards.
 
-©2017 Marmalade Game Studio Ltd.
+©2020 Marmalade Game Studio Ltd.
 
 (^)
 By doing so, you consent to the use of this information in accordance with our Privacy Policy.
