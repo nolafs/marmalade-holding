@@ -23,7 +23,9 @@ This position is full-time and on-site
 * Keep issue tracking lists up to date
 * Reviewing bugs for clarity and provide status reports on the state of the bug database
 * Product testing to monitor progress and state of the project
-* The Ideal Candidate:
+
+## The Ideal Candidate:
+
 * Excellent time management skills and ability to multitask and prioritise work
 * Strong organizational and planning skills
 * Strives for high quality and pays attention to detail
