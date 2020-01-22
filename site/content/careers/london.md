@@ -1,6 +1,6 @@
 ---
 title: UI Artist
-image: /images/uploads/cluedo-woman.png
+image: /images/uploads/hands-wide-open-monopoly-150x150.png
 location: london
 header:
   image: /images/uploads/hero-about.jpg
