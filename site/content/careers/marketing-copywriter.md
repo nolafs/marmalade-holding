@@ -1,6 +1,6 @@
 ---
 title: Marketing Copywriter
-image: /images/uploads/life-vaccation-snowglobe.png
+image: /images/uploads/family-ico.svg
 location: london
 header:
   image: /images/uploads/hero-about.jpg
