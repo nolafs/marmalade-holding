@@ -1,6 +1,6 @@
 ---
 title: Marketing Copywriter
-image: /images/uploads/screenshot-1-tokens-on-go.jpg
+image: /images/uploads/life-vaccation-snowglobe.png
 location: london
 header:
   image: /images/uploads/hero-about.jpg
