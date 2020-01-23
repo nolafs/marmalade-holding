@@ -8,8 +8,6 @@ header:
 ---
 Marmalade Game Studio is looking for a copywriter to join our family and become part of our close-knit and growing marketing team. It will be your role to ensure all of our messaging is on-brand, of the highest quality and communicates the benefits and values of our games and studio.
 
-
-
 You will write copy for marketing campaigns across our portfolio of well-known and beloved digital board games for mobile and console such as Monopoly, Cluedo and The Game of Life, as well as help shape the tone of voice and marketing messaging for new games.
 
 It’s important that you know how to persuade and entertain people with your writing. You will work on store descriptions, website copy, social posts, push notifications, ad copy and much more, as well as sub-edit content written by your marketing colleagues.
@@ -18,8 +16,6 @@ Join us in our beautiful new office, only a 3-minute walk from Goodge Street sta
 
 This position is full-time and on-site.
 
-
-
 ## The Role
 
 * Shape all outgoing communications to match our brand and tone of voice
@@ -27,8 +23,6 @@ This position is full-time and on-site.
 * Ensure all copy is SEO and ASO optimised
 * Sub-edit copy written by your colleagues
 * Improve our brand and copy guidelines
-
-
 
 ## The Ideal Candidate
 
@@ -39,21 +33,13 @@ This position is full-time and on-site.
 * A keen eye for detail, grammar and spelling
 * A passion for video games
 
-
-
 ## The Package:
 
-Competitive salary
-
-Generous holiday allowance consisting of 22 days + a bonus 3 days’ holiday when the offices are closed over Christmas and New Year
-
-Company pension scheme
-
-Company Health and Life insurance
-
-Flexible work hours
-
-
+* Competitive salary
+* Generous holiday allowance consisting of 22 days + a bonus 3 days’ holiday when the offices are closed over Christmas and New Year
+* Company pension scheme
+* Company Health and Life insurance
+* Flexible work hours
 
 ## Does this sound like you?
 
