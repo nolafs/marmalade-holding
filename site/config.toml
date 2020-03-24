@@ -8,7 +8,7 @@ quality = 60
 
 # Google
 #
-googleAnalytics = "UA-150749173-1"
+googleAnalytics = "UA-3653156-2"
 #google_verify_meta = "//BAi57DROASu4b2mkVNA_EyUsobfA7Mq8BmSg7Rn-Zp9"
 
 # RSS, categories and tags disabled for an easy start
@@ -75,7 +75,8 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 [params]
     custom_navbar= false
     cms_navbar = true
-    host_name = "https://eloquent-curran-2d10a7.netlify.com"
+    og_image = "https://www.marmaladegamestudio.com/images/Monopoly_Icon.png"
+    host_name = "https://www.marmaladegamestudio.com"
     description = "Marmalade Game Studio was founded on a passion and commitment to create great gameplay experiences for mobile and connected devices. We prototype, reflect, and test with target audiences to craft games that people love to play. Headquartered in London, UK with a further studio in Lisbon, Portugal, our goal is to continuously develop compelling high…"
     logo_large="/images/logo-full.png"
     logo_small="/images/logo-icon.png"

@@ -216,15 +216,14 @@ $input-error-font-weight: $global-weight-bold;
 // 7. Accordion
 // ------------
 
-$accordion-background: transparent;
-$accordion-plusminus: false;
-$accordion-title-font-size: rem-calc(24);
+$accordion-background: $primary-color;
+$accordion-plusminus: true;
+$accordion-title-font-size: rem-calc(18);
 $accordion-item-color: $white;
-$accordion-item-background-hover: transparent;
+$accordion-item-background-hover: $secondary-color;
 $accordion-item-padding: 1.25rem 1rem;
-$accordion-content-background: transparent;
-$accordion-content-border: none;
-$accordion-content-color: $white;
+$accordion-content-border: 1px solid $white;
+$accordion-content-color: $black;
 $accordion-content-padding: 1rem;
 
 // 8. Accordion Menu
@@ -236,7 +235,7 @@ $accordionmenu-submenu-padding: $accordionmenu-padding;
 $accordionmenu-arrows: false;
 $accordionmenu-arrow-color: $primary-color;
 $accordionmenu-item-background: none;
-$accordionmenu-border: null;
+$accordionmenu-border: 1px solid $white;
 $accordionmenu-submenu-toggle-background: none;
 $accordion-submenu-toggle-border: none;
 $accordionmenu-submenu-toggle-width: 40px;

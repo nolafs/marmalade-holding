@@ -1,0 +1,28 @@
+#faqs{
+  .image-round{
+    border-radius: 25px;
+  }
+
+  .button.small{
+    max-width: 180px;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+}
+
+.monopoly {
+  .accordion {
+    background-color: $monopoly-color;
+
+    a:hover, a:focus {
+      color: $white;
+      background-color: $primary-color;
+    }
+
+    .accordion-title.is-active{
+      a {
+        color: $monopoly-color;
+      }
+    }
+  }
+}

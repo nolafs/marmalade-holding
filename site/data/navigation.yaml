@@ -9,3 +9,5 @@ items:
     name: Careers
   - link: /contact
     name: Contact
+  - link: /faqs
+    name: FAQ
