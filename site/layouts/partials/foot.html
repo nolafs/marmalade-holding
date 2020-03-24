@@ -4,6 +4,6 @@
 {{ end }}
 {{if $.Site.Data.gdpr.osana.active }}
 {{ "<!-- GDPR -->" | safeHTML }}
-    <script src="{{$.Site.Data.gdpr.osana.script}}"></script>
+    <script src="{{$.Site.Data.gdpr.osana.script}}" async></script>
 {{ "<!-- /GDPR -->" | safeHTML }}
 {{end}}
