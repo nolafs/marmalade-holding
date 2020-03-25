@@ -83,6 +83,19 @@ collections:
           {label: "Image", name: "image", widget: "image"},
           {label: "Logo", name: "logo", widget: "image"}
       ]}
+  - name: "competitions"
+      label: "Competitions"
+      label_singular: "Competition"
+      editor:
+        preview: false
+      folder: "site/content/competition"
+      create: true
+      fields:
+        - {label: "Hero Header", name: header, widget: object, fields: [
+        {label: "Image", name: "image", widget: "image"},
+        {label: "Logo", name: "logo", widget: "image"}
+        ]}
+        - {label: "Body", name: "body", widget: "markdown"}
   - name: "faq"
     label: "FAQs"
     label_singular: "FAQ"
