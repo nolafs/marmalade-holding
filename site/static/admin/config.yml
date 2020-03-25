@@ -86,6 +86,8 @@ collections:
   - name: "competitions"
     label: "Competitions"
     label_singular: "Competition"
+    slug: {{year}}-{{month}}-{{slug}}
+    preview_path: competitions/{{slug}}
     editor:
       preview: false
     folder: "site/content/competition"
