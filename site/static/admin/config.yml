@@ -86,11 +86,9 @@ collections:
   - name: "competitions"
     label: "Competitions"
     label_singular: "Competition"
-    slug: {{year}}-{{month}}-{{slug}}
-    preview_path: competitions/{{slug}}
     editor:
       preview: false
-    folder: "site/content/competition"
+    folder: "site/content/competitions"
     create: true
     fields:
       - {label: "Hero Header", name: header, widget: object, fields: [
