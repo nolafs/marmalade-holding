@@ -4,4 +4,4 @@ header:
   logo: /images/uploads/monopolylogowhite.png
 title: Text Competition
 ---
-{{% gleam url='https://gleam.io/b8sqE/steam-game-giveaway-campaign'%}}Test this competition{{% /gleam %}}
+{{% gleam url="https://gleam.io/b8sqE/steam-game-giveaway-campaign" %}}Test this competition{{% /gleam %}}

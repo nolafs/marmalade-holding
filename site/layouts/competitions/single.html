@@ -1,9 +1,12 @@
 {{ define "header" }}
-{{ partial "header-section"  (dict "Content" . )}}
+{{ partial "header-hero"  (dict "media" .Params.header "title" .Title "body" .Content)}}
 {{end}}
 {{ define "main" }} {{ $section := .Site.GetPage "section" .Section }}
 <div class="grid-container m-t-b-70">
   <article >
+    <header class="text-center">
+      <h2>{{.Title}}</h2>
+    </header>
     <main>{{- .Content -}}</main>
   </article>
 </div>
