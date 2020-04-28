@@ -21,8 +21,9 @@ This position is full-time and on-site. During the lockdown, the successful cand
 * Work closely with design, production, and developers to iterate on best solutions to UI challenges
 * Work with other disciplines on the integration of UI art assets 
 
-## \
-**Requirements**
+****
+
+## **Requirements**
 
 * Experience as a UI Artist in the games industry
 * Strong graphic design skills showcased by a portfolio that meets the quality of Marmalade Games
@@ -35,13 +36,9 @@ This position is full-time and on-site. During the lockdown, the successful cand
 * Passion for board games (both for professional reasons and because we like to have more players for our lunchtime sessions!).
 * Experience implementing and animating UI assets in engine is a plus
 
-
-
 ## **Optional but valuable**
 
 * Experience implementing and animating UI assets in engine
-
-
 
 ## **Benefits**
 
@@ -54,11 +51,9 @@ This position is full-time and on-site. During the lockdown, the successful cand
 * Life insurance 
 * Regular social events
 
-
-
 ## **Are you our next superstar? Join us on the Marmalade adventure!**
 
-Send your CV and portfolio to jobs@marmalademail.com. 
+Send your CV and portfolio to jobs@marmalademail.com . 
 
 
 
