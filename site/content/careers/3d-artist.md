@@ -1,6 +1,6 @@
 ---
 title: 3D Artist
-image: /images/uploads/m_s_1.jpg
+image: /images/uploads/monopoly_char_presenting.png
 location: london
 header:
   image: /images/uploads/hero-about.jpg
