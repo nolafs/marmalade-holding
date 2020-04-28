@@ -34,13 +34,9 @@ This position is full-time and on-site. During the lockdown, the successful cand
 * Passion for board games (both for professional reasons and because we like to have more players for our lunchtime sessions!).
 * Experience implementing and animating UI assets in engine is a plus
 
-
-
 ## **Optional but valuable**
 
 * Experience implementing and animating UI assets in engine
-
-
 
 ## **Benefits**
 
@@ -53,10 +49,10 @@ This position is full-time and on-site. During the lockdown, the successful cand
 * Life insurance 
 * Regular social events
 
-
-
 ## **Are you our next superstar? Join us on the Marmalade adventure!**
 
- 
+Send your CV and portfolio to jobs@marmalademail.com.
+
+
 
 If you are selected for an interview you will normally be contacted within two weeks of the closing date. If you do not hear from us within this period then you should assume that, unfortunately, on this occasion you have been unsuccessful.
