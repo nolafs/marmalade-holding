@@ -1,6 +1,6 @@
 ---
 title: Game Programmer
-image: /images/uploads/iphone-monopoly.png
+image: /images/uploads/hands-wide-open-monopoly-150x150.png
 location: london
 header:
   image: /images/uploads/monopoly-hero-1.jpg
